@@ -1,0 +1,2024 @@
+Last login: Wed Mar  1 16:05:22 on console
+172-16-247-159:~ itpstudent$ cd Desktop
+172-16-247-159:Desktop itpstudent$ mkdir regina
+172-16-247-159:Desktop itpstudent$ cd regina
+172-16-247-159:regina itpstudent$ git clone https://github.com/RSofiaC/RWET.git
+2017-03-01 17:54:31.306 xcodebuild[1520:116456] [MT] PluginLoading: Required plug-in compatibility UUID E0A62D1F-3C18-4D74-BFE5-A4167D643966 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-03-01 17:54:31.309 xcodebuild[1520:116456] Failed to load plugin at: /Users/itpstudent/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin, skipping.  Reason for failure: *** -[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[0]
+Cloning into 'RWET'...
+remote: Counting objects: 27, done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 27 (delta 10), reused 15 (delta 5), pack-reused 0
+Unpacking objects: 100% (27/27), done.
+172-16-247-159:regina itpstudent$ 
+172-16-247-159:regina itpstudent$ cd RWET
+172-16-247-159:RWET itpstudent$ ls
+Hw3_ListsLoops	README.md
+172-16-247-159:RWET itpstudent$ Hw3_ListsLoops
+-bash: Hw3_ListsLoops: command not found
+172-16-247-159:RWET itpstudent$ cd Hw3_ListsLoops
+172-16-247-159:Hw3_ListsLoops itpstudent$ ls
+abracadabra.py	magicwords.txt	nightspell.txt	salacamula.py	sunspell.txt
+black.txt	moonspell.txt	radomize.py	spell.txt
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat moonspell.txt
+color was black always your favorite
+pen inkwell the that the like beckons
+night with million a spangled stars like the
+rides like your the machine sleek ego
+thoughts dare like the speak naked you not
+
+was always color chose the you black
+a to attention in draw crowd
+your personality the splinters to of cover
+spirits to the pave for wayward way
+the to you from separate sheep
+
+the to blackness was always I attracted
+color of your hair the of
+me of eyes enticed that those
+the secrets you deep of within
+of enthralled me magic the that
+
+but I when followed was blindly that
+demise, path my down to the
+a times I thousand when drowned
+the black eyes. depths those within of
+
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat spell.txt
+loomi en gurth 
+nai turamin 
+ring wing 
+irma haeannon 
+lietha guldur 
+bragol alaa 
+gorgamin 
+amin vasa lle sinta 
+naur tinchor ostring 
+nai uuvanimo turamin
+bragol thalion
+loomi tanya lirva amin
+lanta kaima
+tinechor
+parm templa tengwa
+karn aduamin
+pela tanya tempa aiguldur
+templa pilini'
+lanta en' kalale
+lle quella
+amin quella
+khelek hurro'
+n'tess gothamin
+n'tess uuvanimo
+asca melloneamin
+bragollach tel'llach
+naur tinchor osturra
+172-16-247-159:Hw3_ListsLoops itpstudent$  cat magicwords.txt
+color was black always your favorite
+pen inkwell the that the like beckons
+night with million a spangled stars like the
+rides like your the machine sleek ego
+thoughts dare like the speak naked you not
+
+was always color chose the you black
+a to attention in draw crowd
+your personality the splinters to of cover
+spirits to the pave for wayward way
+the to you from separate sheep
+
+the to blackness was always I attracted
+color of your hair the of
+me of eyes enticed that those
+the secrets you deep of within
+of enthralled me magic the that
+
+but I when followed was blindly that
+demise, path my down to the
+a times I thousand when drowned
+the black eyes. depths those within of
+
+en gurth loomi
+turamin nai
+ring wing
+haeannon irma
+lietha guldur
+bragol alaa
+gorgamin
+sinta lle vasa amin
+tinchor naur ostring
+nai turamin uuvanimo
+bragol thalion
+tanya loomi amin lirva
+lanta kaima
+tinechor
+tengwa parm templa
+karn aduamin
+tempa tanya pela aiguldur
+pilini' templa
+lanta kalale en'
+lle quella
+quella amin
+khelek hurro'
+n'tess gothamin
+uuvanimo n'tess
+melloneamin asca
+bragollach tel'llach
+tinchor osturra naur
+h
+s
+
+n
+u
+a
+r
+o
+r
+u
+t
+o
+i
+c
+t
+r
+
+r
+a
+n
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat moonspell.txt
+color was black always your favorite
+pen inkwell the that the like beckons
+night with million a spangled stars like the
+rides like your the machine sleek ego
+thoughts dare like the speak naked you not
+
+was always color chose the you black
+a to attention in draw crowd
+your personality the splinters to of cover
+spirits to the pave for wayward way
+the to you from separate sheep
+
+the to blackness was always I attracted
+color of your hair the of
+me of eyes enticed that those
+the secrets you deep of within
+of enthralled me magic the that
+
+but I when followed was blindly that
+demise, path my down to the
+a times I thousand when drowned
+the black eyes. depths those within of
+
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat nightspell.txt
+t
+
+was always color chose the you black
+quella amin
+t
+c
+a
+r
+i
+a to attention in draw crowd
+s
+lle quella
+me of eyes enticed that those
+u
+n'tess gothamin
+n
+tengwa parm templa
+haeannon irma
+melloneamin asca
+sinta lle vasa amin
+
+bragol alaa
+a times I thousand when drowned
+rides like your the machine sleek ego
+ring wing
+a
+tinechor
+o
+uuvanimo n'tess
+
+bragol thalion
+tinchor naur ostring
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+r
+color of your hair the of
+nai turamin uuvanimo
+lietha guldur
+khelek hurro'
+pilini' templa
+lanta kaima
+karn aduamin
+
+demise, path my down to the
+lanta kalale en'
+turamin nai
+r
+spirits to the pave for wayward way
+r
+bragollach tel'llach
+night with million a spangled stars like the
+tinchor osturra naur
+but I when followed was blindly that
+n
+tanya loomi amin lirva
+u
+tempa tanya pela aiguldur
+the secrets you deep of within
+en gurth loomi
+
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+
+color was black always your favorite
+o
+h
+gorgamin
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py< nightspell.txt
+Traceback (most recent call last):
+  File "cleanup.py", line 4, in <module>
+    for line in all_lines:
+NameError: name 'all_lines' is not defined
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py< nightspell.txt
+was always color chose the you black
+quella amin
+a to attention in draw crowd
+lle quella
+me of eyes enticed that those
+n'tess gothamin
+tengwa parm templa
+haeannon irma
+melloneamin asca
+sinta lle vasa amin
+bragol alaa
+a times I thousand when drowned
+rides like your the machine sleek ego
+ring wing
+tinechor
+uuvanimo n'tess
+bragol thalion
+tinchor naur ostring
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+color of your hair the of
+nai turamin uuvanimo
+lietha guldur
+khelek hurro'
+pilini' templa
+lanta kaima
+karn aduamin
+demise, path my down to the
+lanta kalale en'
+turamin nai
+spirits to the pave for wayward way
+bragollach tel'llach
+night with million a spangled stars like the
+tinchor osturra naur
+but I when followed was blindly that
+tanya loomi amin lirva
+tempa tanya pela aiguldur
+the secrets you deep of within
+en gurth loomi
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+color was black always your favorite
+gorgamin
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py< nightspell.txt > closerspell.txt
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat closerspell.txt
+was always color chose the you black
+quella amin
+a to attention in draw crowd
+lle quella
+me of eyes enticed that those
+n'tess gothamin
+tengwa parm templa
+haeannon irma
+melloneamin asca
+sinta lle vasa amin
+bragol alaa
+a times I thousand when drowned
+rides like your the machine sleek ego
+ring wing
+tinechor
+uuvanimo n'tess
+bragol thalion
+tinchor naur ostring
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+color of your hair the of
+nai turamin uuvanimo
+lietha guldur
+khelek hurro'
+pilini' templa
+lanta kaima
+karn aduamin
+demise, path my down to the
+lanta kalale en'
+turamin nai
+spirits to the pave for wayward way
+bragollach tel'llach
+night with million a spangled stars like the
+tinchor osturra naur
+but I when followed was blindly that
+tanya loomi amin lirva
+tempa tanya pela aiguldur
+the secrets you deep of within
+en gurth loomi
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+color was black always your favorite
+gorgamin
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py < closerspell.txt
+your personality the splinters to of cover
+night with million a spangled stars like the
+thoughts dare like the speak naked you not
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py < closerspell.txt
+was always color chose the you black
+a to attention in draw crowd
+me of eyes enticed that those
+a times I thousand when drowned
+rides like your the machine sleek ego
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+color of your hair the of
+demise, path my down to the
+spirits to the pave for wayward way
+night with million a spangled stars like the
+but I when followed was blindly that
+tanya loomi amin lirva
+tempa tanya pela aiguldur
+the secrets you deep of within
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+color was black always your favorite
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py < closerspell.txt > finalSpell.txt
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat finalSpell.txt
+was always color chose the you black
+a to attention in draw crowd
+me of eyes enticed that those
+a times I thousand when drowned
+rides like your the machine sleek ego
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+color of your hair the of
+demise, path my down to the
+spirits to the pave for wayward way
+night with million a spangled stars like the
+but I when followed was blindly that
+tanya loomi amin lirva
+tempa tanya pela aiguldur
+the secrets you deep of within
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+color was black always your favorite
+172-16-247-159:Hw3_ListsLoops itpstudent$ cd ..
+172-16-247-159:RWET itpstudent$ add -A
+-bash: add: command not found
+172-16-247-159:RWET itpstudent$ git add -A
+172-16-247-159:RWET itpstudent$ git commit -m "I needed to perform a final clean up to the text before I could leave it alone, the final document is finalSpell.txt"
+[master 8f3f2a9] I needed to perform a final clean up to the text before I could leave it alone, the final document is finalSpell.txt
+ Committer: Jacquelyn Zen <itpstudent@172-16-247-159.DYNAPOOL.NYU.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 14 files changed, 464 insertions(+)
+ rename abracadabra.py => Hw3_ListsLoops/abracadabra.py (100%)
+ rename black.txt => Hw3_ListsLoops/black.txt (100%)
+ create mode 100644 Hw3_ListsLoops/cleanup.py
+ create mode 100644 Hw3_ListsLoops/closerspell.txt
+ create mode 100644 Hw3_ListsLoops/finalSpell.txt
+ create mode 100644 Hw3_ListsLoops/finalSpellCleanup
+ rename magicwords.txt => Hw3_ListsLoops/magicwords.txt (100%)
+ rename moonspell.txt => Hw3_ListsLoops/moonspell.txt (100%)
+ rename nightspell.txt => Hw3_ListsLoops/nightspell.txt (100%)
+ rename radomize.py => Hw3_ListsLoops/radomize.py (100%)
+ rename salacamula.py => Hw3_ListsLoops/salacamula.py (100%)
+ rename spell.txt => Hw3_ListsLoops/spell.txt (100%)
+ rename sunspell.txt => Hw3_ListsLoops/sunspell.txt (100%)
+172-16-247-159:RWET itpstudent$ git push
+remote: Permission to RSofiaC/RWET.git denied to dagoch.
+fatal: unable to access 'https://github.com/RSofiaC/RWET.git/': The requested URL returned error: 403
+172-16-247-159:RWET itpstudent$ git push
+remote: Permission to RSofiaC/RWET.git denied to dagoch.
+fatal: unable to access 'https://github.com/RSofiaC/RWET.git/': The requested URL returned error: 403
+172-16-247-159:RWET itpstudent$ git credential-osxkeychain erase
+host=github.com
+protocol=https
+
+172-16-247-159:RWET itpstudent$ cd..
+-bash: cd..: command not found
+172-16-247-159:RWET itpstudent$ git add -A
+172-16-247-159:RWET itpstudent$ git commit -m "I needed to perform a final clean up to the text before I could leave it alone, the final document is finalSpell.txt"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+172-16-247-159:RWET itpstudent$ 
+172-16-247-159:RWET itpstudent$ git push
+Username for 'https://github.com': rcd326@nyu.edu
+Password for 'https://rcd326@nyu.edu@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 3.53 KiB | 0 bytes/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
+To https://github.com/RSofiaC/RWET.git
+   98efc0d..8f3f2a9  master -> master
+172-16-247-159:RWET itpstudent$ ls
+Hw3_ListsLoops	README.md
+172-16-247-159:RWET itpstudent$ mkdir Hw4_ListsDictionaries
+172-16-247-159:RWET itpstudent$ ls
+Hw3_ListsLoops		Hw4_ListsDictionaries	README.md
+172-16-247-159:RWET itpstudent$ cdr Hw4_ListsDictionaries
+-bash: cdr: command not found
+172-16-247-159:RWET itpstudent$ cd Hw4_ListsDictionaries
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ mv theBelt.txt paisTropical.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+paisTropical.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+paisTropical.txt	theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ mv theBelt.txt biome.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		paisTropical.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		paisTropical.txt	theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat biome.txt
+needs a very specific climate and environment in order to grow
+1. Hawaii (US) 
+2. Mexico* 
+3. Cuba 
+4. Haiti 
+5. Dominican Republic 
+6. Puerto Rico (US) 
+7. Jamaica 
+8. Venezuela 
+9. Brazil* 
+10. Guatemala* 
+11. Honduras 
+12. El Salvador 
+13. Nicaragua 
+14. Costa Rica 
+15. Panama 
+16. Colombia* 
+17. Ecuador 18. Peru 
+19. Bolivia 
+20. Sudan 
+21. Cameroon 
+22. Cote D?ivoire* 
+23. Sao Tome e Principe 
+24. Angola 
+25. Zimbabwe 
+26. South Africa 
+27. Yemen 
+28. Ethiopia* 
+29. Kenya 
+30. Uganda* 
+31. Burundi 
+32. Tanzania 
+33. Madagascar 34. India* 
+35. Vietnam* 
+36. Philippines 
+37. Indonesia* 
+38. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat paisTropical.txt
+This climate is found near the equator. That means that there is more 
+direct sunlight hitting the land and sea there than anywhere else. The 
+sun warms the land and sea and the water evaporates into the air. The 
+warm air can hold a lot of water vapor. As the air rises, it cools. That 
+means it can hold less water vapor. Then as warm meets cold, 
+condensation takes place and the vapor forms droplets and clouds form. 
+The clouds then produce rain. It rains more than ninety days a year and 
+the strong sun usually shines between the storms. The water cycle 
+repeats often along the equator.
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat theBelt.txt
+needs a very specific climate and environment in order to grow. 
+1. Hawaii (US) 
+2. Mexico* 
+3. Cuba 
+4. Haiti 
+5. Dominican Republic 
+6. Puerto Rico (US) 
+7. Jamaica 
+8. Venezuela 
+9. Brazil* 
+10. Guatemala* 
+11. Honduras 
+12. El Salvador 
+13. Nicaragua 
+14. Costa Rica 
+15. Panama 
+16. Colombia* 
+17. Ecuador 18. Peru 
+19. Bolivia 
+20. Sudan 
+21. Cameroon 
+22. Cote D?ivoire* 
+23. Sao Tome e Principe 
+24. Angola 
+25. Zimbabwe 
+26. South Africa 
+27. Yemen 
+28. Ethiopia* 
+29. Kenya 
+30. Uganda* 
+31. Burundi 
+32. Tanzania 
+33. Madagascar 34. India* 
+35. Vietnam* 
+36. Philippines 
+37. Indonesia* 
+38. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat biome.txt
+needs a very specific climate and environment in order to grow
+1. Hawaii (US) 
+2. Mexico* 
+3. Cuba 
+4. Haiti 
+5. Dominican Republic 
+6. Puerto Rico (US) 
+7. Jamaica 
+8. Venezuela 
+9. Brazil* 
+10. Guatemala* 
+11. Honduras 
+12. El Salvador 
+13. Nicaragua 
+14. Costa Rica 
+15. Panama 
+16. Colombia* 
+17. Ecuador 18. Peru 
+19. Bolivia 
+20. Sudan 
+21. Cameroon 
+22. Cote D?ivoire* 
+23. Sao Tome e Principe 
+24. Angola 
+25. Zimbabwe 
+26. South Africa 
+27. Yemen 
+28. Ethiopia* 
+29. Kenya 
+30. Uganda* 
+31. Burundi 
+32. Tanzania 
+33. Madagascar 34. India* 
+35. Vietnam* 
+36. Philippines 
+37. Indonesia* 
+38. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat paisTropical.txt
+This climate is found near the equator. That means that there is more 
+direct sunlight hitting the land and sea there than anywhere else. The 
+sun warms the land and sea and the water evaporates into the air. The 
+warm air can hold a lot of water vapor. As the air rises, it cools. That 
+means it can hold less water vapor. Then as warm meets cold, 
+condensation takes place and the vapor forms droplets and clouds form. 
+The clouds then produce rain. It rains more than ninety days a year and 
+the strong sun usually shines between the storms. The water cycle 
+repeats often along the equator.
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat theBelt.txt
+needs a very specific climate and environment in order to grow. 
+1. Hawaii (US) 
+2. Mexico* 
+3. Cuba 
+4. Haiti 
+5. Dominican Republic 
+6. Puerto Rico (US) 
+7. Jamaica 
+8. Venezuela 
+9. Brazil* 
+10. Guatemala* 
+11. Honduras 
+12. El Salvador 
+13. Nicaragua 
+14. Costa Rica 
+15. Panama 
+16. Colombia* 
+17. Ecuador 18. Peru 
+19. Bolivia 
+20. Sudan 
+21. Cameroon 
+22. Cote D?ivoire* 
+23. Sao Tome e Principe 
+24. Angola 
+25. Zimbabwe 
+26. South Africa 
+27. Yemen 
+28. Ethiopia* 
+29. Kenya 
+30. Uganda* 
+31. Burundi 
+32. Tanzania 
+33. Madagascar 34. India* 
+35. Vietnam* 
+36. Philippines 
+37. Indonesia* 
+38. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cd paisTropical.txt
+-bash: cd: paisTropical.txt: No such file or directory
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt					 live in a tropical country blessed by God
+theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cd live in a tropical country blessed by God
+-bash: cd: live: No such file or directory
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		paisTropical.txt	theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat paisTropical.txt
+I live in a tropical country blessed by God It is good for nature 
+rather than beauty, in February, in February It has carnival, it has 
+carnival, I have a VW beetle and a guitar I support Flamengo and I have 
+a girlfriend named Tereza Child of samba, I am a boy of ordinary 
+outlook But happy all the same because I don't owe anything to anybody 
+Because I am happy, very happy, with myself alone. Child of samba child 
+of samba I may not be a band leader, it's true But at home all my 
+friends look up to me, it's true And that is why I can do anything and 
+the reason for my joy.
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat biome.txt
+needs a very specific climate and environment in order to grow
+1. Hawaii (US) 
+2. Mexico* 
+3. Cuba 
+4. Haiti 
+5. Dominican Republic 
+6. Puerto Rico (US) 
+7. Jamaica 
+8. Venezuela 
+9. Brazil* 
+10. Guatemala* 
+11. Honduras 
+12. El Salvador 
+13. Nicaragua 
+14. Costa Rica 
+15. Panama 
+16. Colombia* 
+17. Ecuador 18. Peru 
+19. Bolivia 
+20. Sudan 
+21. Cameroon 
+22. Cote D?ivoire* 
+23. Sao Tome e Principe 
+24. Angola 
+25. Zimbabwe 
+26. South Africa 
+27. Yemen 
+28. Ethiopia* 
+29. Kenya 
+30. Uganda* 
+31. Burundi 
+32. Tanzania 
+33. Madagascar 34. India* 
+35. Vietnam* 
+36. Philippines 
+37. Indonesia* 
+38. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat theBelt.txt
+needs a very specific climate and environment in order to grow. 
+1. Hawaii (US) 
+2. Mexico* 
+3. Cuba 
+4. Haiti 
+5. Dominican Republic 
+6. Puerto Rico (US) 
+7. Jamaica 
+8. Venezuela 
+9. Brazil* 
+10. Guatemala* 
+11. Honduras 
+12. El Salvador 
+13. Nicaragua 
+14. Costa Rica 
+15. Panama 
+16. Colombia* 
+17. Ecuador 18. Peru 
+19. Bolivia 
+20. Sudan 
+21. Cameroon 
+22. Cote D?ivoire* 
+23. Sao Tome e Principe 
+24. Angola 
+25. Zimbabwe 
+26. South Africa 
+27. Yemen 
+28. Ethiopia* 
+29. Kenya 
+30. Uganda* 
+31. Burundi 
+32. Tanzania 
+33. Madagascar 34. India* 
+35. Vietnam* 
+36. Philippines 
+37. Indonesia* 
+38. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		paisTropical.txt	theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat biome.txt
+This climate is found near the equator. That means that there is more 
+direct sunlight hitting the land and sea there than anywhere else. The 
+sun warms the land and sea and the water evaporates into the air. The 
+warm air can hold a lot of water vapor. As the air rises, it cools. That 
+means it can hold less water vapor. Then as warm meets cold, 
+condensation takes place and the vapor forms droplets and clouds form. 
+The clouds then produce rain. It rains more than ninety days a year and 
+the strong sun usually shines between the storms. The water cycle 
+repeats often along the equator.
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat paisTropical
+cat: paisTropical: No such file or directory
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat paisTropical.txt
+I live in a tropical country blessed by God It is good for nature 
+rather than beauty, in February, in February It has carnival, it has 
+carnival, I have a VW beetle and a guitar I support Flamengo and I have 
+a girlfriend named Tereza Child of samba, I am a boy of ordinary 
+outlook But happy all the same because I don't owe anything to anybody 
+Because I am happy, very happy, with myself alone. Child of samba child 
+of samba I may not be a band leader, it's true But at home all my 
+friends look up to me, it's true And that is why I can do anything and 
+the reason for my joy.
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat theBelt.txt
+needs a very specific climate and environment in order to grow. 
+1. Hawaii (US) 
+2. Mexico* 
+3. Cuba 
+4. Haiti 
+5. Dominican Republic 
+6. Puerto Rico (US) 
+7. Jamaica 
+8. Venezuela 
+9. Brazil* 
+10. Guatemala* 
+11. Honduras 
+12. El Salvador 
+13. Nicaragua 
+14. Costa Rica 
+15. Panama 
+16. Colombia* 
+17. Ecuador 18. Peru 
+19. Bolivia 
+20. Sudan 
+21. Cameroon 
+22. Cote D?ivoire* 
+23. Sao Tome e Principe 
+24. Angola 
+25. Zimbabwe 
+26. South Africa 
+27. Yemen 
+28. Ethiopia* 
+29. Kenya 
+30. Uganda* 
+31. Burundi 
+32. Tanzania 
+33. Madagascar 34. India* 
+35. Vietnam* 
+36. Philippines 
+37. Indonesia* 
+38. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 3
+    or line in sys.stdin:
+     ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 6
+    print line
+    ^
+IndentationError: unexpected indent
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 6
+    print line
+             ^
+IndentationError: unindent does not match any outer indentation level
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 6
+    print line
+    ^
+IndentationError: unexpected indent
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt > newBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat newBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < newBelt.txt
+s a very specific climate and environment in order to grow.
+waii (US)
+xico*
+ba
+iti
+minican Republic
+erto Rico (US)
+maica
+nezuela
+azil*
+Guatemala*
+Honduras
+El Salvador
+Nicaragua
+Costa Rica
+Panama
+Colombia*
+Ecuador 18. Peru
+Bolivia
+Sudan
+Cameroon
+Cote D?ivoire*
+Sao Tome e Principe
+Angola
+Zimbabwe
+South Africa
+Yemen
+Ethiopia*
+Kenya
+Uganda*
+Burundi
+Tanzania
+Madagascar 34. India*
+Vietnam*
+Philippines
+Indonesia*
+Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < newBelt.txt > newCleanBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat newCleanBelt.txt
+s a very specific climate and environment in order to grow.
+waii (US)
+xico*
+ba
+iti
+minican Republic
+erto Rico (US)
+maica
+nezuela
+azil*
+Guatemala*
+Honduras
+El Salvador
+Nicaragua
+Costa Rica
+Panama
+Colombia*
+Ecuador 18. Peru
+Bolivia
+Sudan
+Cameroon
+Cote D?ivoire*
+Sao Tome e Principe
+Angola
+Zimbabwe
+South Africa
+Yemen
+Ethiopia*
+Kenya
+Uganda*
+Burundi
+Tanzania
+Madagascar 34. India*
+Vietnam*
+Philippines
+Indonesia*
+Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python randomize.py < newCleanBelt.txt
+python: can't open file 'randomize.py': [Errno 2] No such file or directory
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		newCleanBelt.txt	paisTropical.txt	theBelt.txt
+newBelt.txt		noNumbers.py		radomize.py
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ 
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python radomize.py < newCleanBelt.txt
+El Salvador
+azil*
+Bolivia
+Madagascar 34. India*
+Ecuador 18. Peru
+Cote D?ivoire*
+iti
+Honduras
+maica
+ba
+Burundi
+Philippines
+Costa Rica
+Papua New Guinea
+Panama
+Cameroon
+
+Guatemala*
+minican Republic
+Tanzania
+erto Rico (US)
+xico*
+Indonesia*
+Zimbabwe
+Sao Tome e Principe
+Ethiopia*
+South Africa
+Yemen
+nezuela
+Vietnam*
+Colombia*
+Kenya
+waii (US)
+s a very specific climate and environment in order to grow.
+Angola
+Nicaragua
+Uganda*
+Sudan
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 9
+    for line in snumber
+                      ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 8
+    for line in snumber
+                      ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 8
+    for line in snumber
+                      ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 8
+    for word in snumber
+                      ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 8
+    for word in snumber
+                      ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 8
+    for line in line
+                   ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 10
+    if str.find(., beg=0, end=len(string))
+                ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 10
+    if str.find(".", beg=0, end=len(string))
+                                           ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 10
+    if str.find('.', beg=0, end=len(string))
+                                           ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 10
+    if str.find((.), beg=0, end=len(string))
+                 ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 10
+    if str.find( . , beg=0, end=len(string))
+                 ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 10
+    if str.find( * , beg=0, end=len(string))
+                   ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 10
+    if str.find( *, beg=0, end=len(string))
+                  ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 9
+    if line.find('.');
+                     ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 9
+    if line.find('.')
+                    ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 9
+    if line.find('. ')
+                     ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+  File "noNumbers.py", line 9
+    if line.find('a')
+                    ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+Traceback (most recent call last):
+  File "noNumbers.py", line 8, in <module>
+    if str.find('.'):
+TypeError: find/rfind/index/rindex() takes at least 1 argument (0 given)
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+eds a very specific climate and environment in order to grow.
+ Hawaii (US)
+ Mexico*
+ Cuba
+ Haiti
+ Dominican Republic
+ Puerto Rico (US)
+ Jamaica
+ Venezuela
+ Brazil*
+. Guatemala*
+. Honduras
+. El Salvador
+. Nicaragua
+. Costa Rica
+. Panama
+. Colombia*
+. Ecuador 18. Peru
+. Bolivia
+. Sudan
+. Cameroon
+. Cote D?ivoire*
+. Sao Tome e Principe
+. Angola
+. Zimbabwe
+. South Africa
+. Yemen
+. Ethiopia*
+. Kenya
+. Uganda*
+. Burundi
+. Tanzania
+. Madagascar 34. India*
+. Vietnam*
+. Philippines
+. Indonesia*
+. Papua New Guinea
+
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+ds a very specific climate and environment in order to grow.
+Hawaii (US)
+Mexico*
+Cuba
+Haiti
+Dominican Republic
+Puerto Rico (US)
+Jamaica
+Venezuela
+Brazil*
+ Guatemala*
+ Honduras
+ El Salvador
+ Nicaragua
+ Costa Rica
+ Panama
+ Colombia*
+ Ecuador 18. Peru
+ Bolivia
+ Sudan
+ Cameroon
+ Cote D?ivoire*
+ Sao Tome e Principe
+ Angola
+ Zimbabwe
+ South Africa
+ Yemen
+ Ethiopia*
+ Kenya
+ Uganda*
+ Burundi
+ Tanzania
+ Madagascar 34. India*
+ Vietnam*
+ Philippines
+ Indonesia*
+ Papua New Guinea
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+ds a very specific climate and environment in order to grow.
+Hawaii (US)
+Mexico*
+Cuba
+Haiti
+Dominican Republic
+Puerto Rico (US)
+Jamaica
+Venezuela
+Brazil*
+ Guatemala*
+ Honduras
+ El Salvador
+ Nicaragua
+ Costa Rica
+ Panama
+ Colombia*
+ Ecuador 18. Peru
+ Bolivia
+ Sudan
+ Cameroon
+ Cote D?ivoire*
+ Sao Tome e Principe
+ Angola
+ Zimbabwe
+ South Africa
+ Yemen
+ Ethiopia*
+ Kenya
+ Uganda*
+ Burundi
+ Tanzania
+ Madagascar 34. India*
+ Vietnam*
+ Philippines
+ Indonesia*
+ Papua New Guinea
+
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt > newBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat newBelt.txt
+ds a very specific climate and environment in order to grow.
+Hawaii (US)
+Mexico*
+Cuba
+Haiti
+Dominican Republic
+Puerto Rico (US)
+Jamaica
+Venezuela
+Brazil*
+ Guatemala*
+ Honduras
+ El Salvador
+ Nicaragua
+ Costa Rica
+ Panama
+ Colombia*
+ Ecuador 18. Peru
+ Bolivia
+ Sudan
+ Cameroon
+ Cote D?ivoire*
+ Sao Tome e Principe
+ Angola
+ Zimbabwe
+ South Africa
+ Yemen
+ Ethiopia*
+ Kenya
+ Uganda*
+ Burundi
+ Tanzania
+ Madagascar 34. India*
+ Vietnam*
+ Philippines
+ Indonesia*
+ Papua New Guinea
+
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		noNumbers.py		radomize.py
+newBelt.txt		paisTropical.txt	theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat newBelt.txt
+ds a very specific climate and environment in order to grow.
+Hawaii (US)
+Mexico*
+Cuba
+Haiti
+Dominican Republic
+Puerto Rico (US)
+Jamaica
+Venezuela
+Brazil*
+ Guatemala*
+ Honduras
+ El Salvador
+ Nicaragua
+ Costa Rica
+ Panama
+ Colombia*
+ Ecuador 18. Peru
+ Bolivia
+ Sudan
+ Cameroon
+ Cote D?ivoire*
+ Sao Tome e Principe
+ Angola
+ Zimbabwe
+ South Africa
+ Yemen
+ Ethiopia*
+ Kenya
+ Uganda*
+ Burundi
+ Tanzania
+ Madagascar 34. India*
+ Vietnam*
+ Philippines
+ Indonesia*
+ Papua New Guinea
+
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git add -A
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git commit -m "Got my texts, first tried to clean up the country list, realized that the list is wrong so I'm correcting the .txt file and running the noNumbers.py again"
+[master 45434a2] Got my texts, first tried to clean up the country list, realized that the list is wrong so I'm correcting the .txt file and running the noNumbers.py again
+ Committer: Jacquelyn Zen <itpstudent@172-16-247-159.DYNAPOOL.NYU.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 123 insertions(+)
+ create mode 100644 Hw4_ListsDictionaries/biome.txt
+ create mode 100644 Hw4_ListsDictionaries/newBelt.txt
+ create mode 100644 Hw4_ListsDictionaries/noNumbers.py
+ create mode 100644 Hw4_ListsDictionaries/paisTropical.txt
+ create mode 100644 Hw4_ListsDictionaries/radomize.py
+ create mode 100644 Hw4_ListsDictionaries/theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git push
+Counting objects: 8, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 2.23 KiB | 0 bytes/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/RSofiaC/RWET.git
+   8f3f2a9..45434a2  master -> master
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt
+ds a very specific climate and environment in order to grow.
+Hawaii (US)
+Mexico*
+Cuba
+Haiti
+Dominican Republic
+Puerto Rico (US)
+Jamaica
+Venezuela
+Brazil*
+ Guatemala*
+ Honduras
+ El Salvador
+ Nicaragua
+ Costa Rica
+ Panama
+ Colombia*
+ Ecuador
+ Peru
+ Bolivia
+ Sudan
+ Cameroon
+ Cote D?ivoire*
+ Sao Tome e Principe
+ Angola
+ Zimbabwe
+ South Africa
+ Yemen
+ Ethiopia*
+ Kenya
+ Uganda*
+ Burundi
+ Tanzania
+ Madagascar
+ India*
+ Vietnam*
+ Philippines
+ Indonesia*
+ Papua New Guinea
+
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python noNumbers.py < theBelt.txt > newBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat newBelt.txt
+ds a very specific climate and environment in order to grow.
+Hawaii (US)
+Mexico*
+Cuba
+Haiti
+Dominican Republic
+Puerto Rico (US)
+Jamaica
+Venezuela
+Brazil*
+ Guatemala*
+ Honduras
+ El Salvador
+ Nicaragua
+ Costa Rica
+ Panama
+ Colombia*
+ Ecuador
+ Peru
+ Bolivia
+ Sudan
+ Cameroon
+ Cote D?ivoire*
+ Sao Tome e Principe
+ Angola
+ Zimbabwe
+ South Africa
+ Yemen
+ Ethiopia*
+ Kenya
+ Uganda*
+ Burundi
+ Tanzania
+ Madagascar
+ India*
+ Vietnam*
+ Philippines
+ Indonesia*
+ Papua New Guinea
+
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git add -A
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git commit -m "cleaned up to my best the country list"
+[master c9bab60] cleaned up to my best the country list
+ Committer: Jacquelyn Zen <itpstudent@172-16-247-159.DYNAPOOL.NYU.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 473 bytes | 0 bytes/s, done.
+Total 5 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/RSofiaC/RWET.git
+   45434a2..c9bab60  master -> master
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		noNumbers.py		radomize.py
+newBelt.txt		paisTropical.txt	theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		newBelt.txt		paisTropical.txt	theBelt.txt
+composeLyrics.py	noNumbers.py		radomize.py
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+  File "composeLyrics.py", line 25
+    print random_belt[:len(random_belt)/5] + random_biome[len(random_biome)/5] + random_tropical[len(random.tropical(random_tropical)/5:]
+                                                                                                                                       ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+  File "composeLyrics.py", line 25
+    print random_belt[:len(random_belt)/5] + random_biome[len(random_biome)/5] :]
+                                                                               ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+  File "composeLyrics.py", line 25
+    print random_belt[:len(random_belt)/2] + random_biome[len(random_biome)/2:]
+    ^
+IndentationError: unexpected indent
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+Panator. That means that there is more
+Burator. That means that there is more
+Costaor. As the air rises, it cools. That
+Philiapor. Then as warm meets cold,
+Colotween the storms. The water cycle
+Costaong the equator.
+El Saapor. Then as warm meets cold,
+Came water evaporates into the air. The
+Panapor. Then as warm meets cold,
+Cutween the storms. The water cycle
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+Hondoong the equator.
+Vietaapor. Then as warm meets cold,
+Indonoong the equator.
+Costattween the storms. The water cycle
+Mexaapor. Then as warm meets cold,
+Nicappor forms droplets and clouds form.
+Cote D?aapor. Then as warm meets cold,
+Suttween the storms. The water cycle
+Zimbdd sea there than anywhere else. The
+Suppor forms droplets and clouds form.
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+Cofor my joy.
+Jod that is why I can do anything and
+C guitar I support Flamengo and I have
+Adof samba, I am a boy of ordinary
+Sassed by God It is good for nature
+Papdh myself alone. Child of samba child
+Vdof samba, I am a boy of ordinary
+H d that is why I can do anything and
+Papoh myself alone. Child of samba child
+aguitar I support Flamengo and I have
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+Puepder, it's true But at home all my
+V n February It has carnival, it has
+Htguitar I support Flamengo and I have
+Codssed by God It is good for nature
+Pifor my joy.
+Couse I don't owe anything to anybody
+Cdssed by God It is good for nature
+Tifor my joy.
+Yah myself alone. Child of samba child
+Mdssed by God It is good for nature
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+rou
+e h
+i n
+gan
+opg
+cah
+g f
+n s
+nid
+aid
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+uth Africains more than ninety days a year anduse I don't owe anything to anybody
+exico*ins more than ninety days a year andfor my joy.
+uth Africaor. As the air rises, it cools. Thatguitar I support Flamengo and I have
+amaicaong the equator.for my joy.
+ Salvadorpor forms droplets and clouds form.d that is why I can do anything and
+anzaniaong the equator.guitar I support Flamengo and I have
+sta Ricapor forms droplets and clouds form.h myself alone. Child of samba child
+sta Rica water evaporates into the air. Theof samba, I am a boy of ordinary
+ganda*tween the storms. The water cycleder, it's true But at home all my
+ilippinestween the storms. The water cyclen February It has carnival, it has
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+atemala* hold less water vapor. Then as warm meets cold,ropical country blessed by God It is good for nature
+inican Republic hold less water vapor. Then as warm meets cold,ppy all the same because I don't owe anything to anybody
+olivia hold less water vapor. Then as warm meets cold,appy, very happy, with myself alone. Child of samba child
+ganda* hold less water vapor. Then as warm meets cold,eauty, in February, in February It has carnival, it has
+anama land and sea and the water evaporates into the air. Theve a VW beetle and a guitar I support Flamengo and I have
+amaica hold less water vapor. Then as warm meets cold,ropical country blessed by God It is good for nature
+dagascart hitting the land and sea there than anywhere else. Thep to me, it's true And that is why I can do anything and
+donesia*n usually shines between the storms. The water cycleppy all the same because I don't owe anything to anybody
+inican Republicakes place and the vapor forms droplets and clouds form.ve a VW beetle and a guitar I support Flamengo and I have
+ietnam*t hitting the land and sea there than anywhere else. Theve a VW beetle and a guitar I support Flamengo and I have
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+undior. As the air rises, it cools. Thatfor my joy.
+raguaong the equator.n February It has carnival, it has
+ruator. That means that there is moren February It has carnival, it has
+opia*apor. Then as warm meets cold,d that is why I can do anything and
+lvadorpor forms droplets and clouds form.n February It has carnival, it has
+ Ricatween the storms. The water cycleof samba, I am a boy of ordinary
+nam*apor. Then as warm meets cold,d that is why I can do anything and
+zil*apor. Then as warm meets cold,use I don't owe anything to anybody
+i (US)por forms droplets and clouds form.guitar I support Flamengo and I have
+itiong the equator.use I don't owe anything to anybody
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+zuelaor. As the air rises, it cools. Thatd that is why I can do anything and
+e Principepor forms droplets and clouds form.ssed by God It is good for nature
+urasong the equator.for my joy.
+olaong the equator.n February It has carnival, it has
+adord sea there than anywhere else. Thessed by God It is good for nature
+amains more than ninety days a year anduse I don't owe anything to anybody
+ba water evaporates into the air. Theof samba, I am a boy of ordinary
+nda*ong the equator.guitar I support Flamengo and I have
+undi water evaporates into the air. Theh myself alone. Child of samba child
+nyaator. That means that there is mored that is why I can do anything and
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+abwetween the storms. The water cycleof samba, I am a boy of ordinary
+mbia* water evaporates into the air. Then February It has carnival, it has
+adorins more than ninety days a year andof samba, I am a boy of ordinary
+ico*or. As the air rises, it cools. Thatfor my joy.
+esia*ins more than ninety days a year andguitar I support Flamengo and I have
+zuelaator. That means that there is moreof samba, I am a boy of ordinary
+bapor forms droplets and clouds form.ssed by God It is good for nature
+menator. That means that there is moreof samba, I am a boy of ordinary
+ivoire*por forms droplets and clouds form.for my joy.
+ Republic water evaporates into the air. Then February It has carnival, it has
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+Viet water evaporates into the air. Then February It has carnival, it has
+El Saator. That means that there is moreh myself alone. Child of samba child
+Jamd sea there than anywhere else. Theder, it's true But at home all my
+Guated sea there than anywhere else. Then February It has carnival, it has
+Pan water evaporates into the air. Then February It has carnival, it has
+Burapor. Then as warm meets cold,d that is why I can do anything and
+Cameong the equator.n February It has carnival, it has
+Hondtween the storms. The water cycleh myself alone. Child of samba child
+Cameins more than ninety days a year andfor my joy.
+Vened sea there than anywhere else. Thed that is why I can do anything and
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+Ugaator. That means that there is morefor my joy.
+Zimbong the equator.d that is why I can do anything and
+Zimbapor. Then as warm meets cold,n February It has carnival, it has
+Bolong the equator.d that is why I can do anything and
+Phili water evaporates into the air. Then February It has carnival, it has
+Jamor. As the air rises, it cools. Thatof samba, I am a boy of ordinary
+Cameator. That means that there is moressed by God It is good for nature
+Peapor. Then as warm meets cold,guitar I support Flamengo and I have
+Mexator. That means that there is mored that is why I can do anything and
+Dominicanapor. Then as warm meets cold,ssed by God It is good for nature
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+Ugad sea there than anywhere else. Theh myself alone. Child of samba child
+Mexd sea there than anywhere else. Theder, it's true But at home all my
+Panator. That means that there is moreguitar I support Flamengo and I have
+Venepor forms droplets and clouds form.use I don't owe anything to anybody
+ds a very specific climate andong the equator.of samba, I am a boy of ordinary
+Jamor. As the air rises, it cools. Thath myself alone. Child of samba child
+Burd sea there than anywhere else. Thessed by God It is good for nature
+Mexong the equator.use I don't owe anything to anybody
+Yepor forms droplets and clouds form.der, it's true But at home all my
+Angd sea there than anywhere else. Thefor my joy.
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py > songLyrics.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ cat songLyrics.txt
+Brad sea there than anywhere else. Theof samba, I am a boy of ordinary
+Tanztween the storms. The water cyclefor my joy.
+Ethiator. That means that there is moreder, it's true But at home all my
+Hatween the storms. The water cyclefor my joy.
+Peong the equator.d that is why I can do anything and
+Puerto R water evaporates into the air. Thessed by God It is good for nature
+Guateong the equator.n February It has carnival, it has
+Camepor forms droplets and clouds form.h myself alone. Child of samba child
+South ator. That means that there is moressed by God It is good for nature
+Guateator. That means that there is moreuse I don't owe anything to anybody
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ add -A
+-bash: add: command not found
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git add -A
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git commit -m "used the example for the text mashup to compose lyrics for the song, played around with the length but in the end the /2 was the best option, I like this lyrics even have a character"
+[master c16a7ee] used the example for the text mashup to compose lyrics for the song, played around with the length but in the end the /2 was the best option, I like this lyrics even have a character
+ Committer: Jacquelyn Zen <itpstudent@172-16-247-159.DYNAPOOL.NYU.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 35 insertions(+)
+ create mode 100644 Hw4_ListsDictionaries/composeLyrics.py
+ create mode 100644 Hw4_ListsDictionaries/songLyrics.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.03 KiB | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/RSofiaC/RWET.git
+   c9bab60..c16a7ee  master -> master
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python wordChange.py
+This climate is found near the equator. That means specific there is more
+direct sunlight hitting the land and sea South than anywhere else. The
+sun warms the land and Cameroon and the water evaporates into the air. The
+warm air can hold a lot of water vapor. Burundi the air rises, it cools. That
+means it can hold less water vapor. Then Cote warm meets cold,
+condensation takes place and the vapor forms droplets and Guatemala* form.
+The clouds then produce rain. It Philippines more than ninety days a year and
+the strong sun usually shines between the to The water cycle
+repeats often Africa the equator.
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		noNumbers.py		songLyrics.txt
+composeLyrics.py	paisTropical.txt	theBelt.txt
+newBelt.txt		radomize.py		wordChange.py
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python wordChange.py
+I live in a tropical country blessed by a It is good for nature
+rather than beauty, in February, in February It has (US) it has
+carnival, I Burundi a VW beetle and a guitar I support Flamengo and I Burundi
+Africa girlfriend nAfricamed TerezAfrica Child of sAfricambAfrica, I Africam Africa boy of ordinAfricary
+outlook But happy all (US) same because I don't owe anything to anybody
+Because I Cote happy, very happy, with myself alone. Child of sCoteba child
+of samba I may not Honduras a band leader, it's true But at home all my
+friends look up to me, it's true And that is Papua I can do anything and
+the reason for my Rico
+
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+repeats often alder, it's true But at home all my
+the strong sun usually shines bed that is why I can do anything and
+This climate is found near the equh myself alone. Child of samba child
+direct sunlight hitting the land anssed by God It is good for nature
+repeats often alfor my joy.
+condensation takes place and the van February It has carnival, it has
+direct sunlight hitting the land anof samba, I am a boy of ordinary
+repeats often alguitar I support Flamengo and I have
+repeats often alfor my joy.
+condensation takes place and the vassed by God It is good for nature
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+direct sunlight hitting the land anssed by God It is good for nature
+repeats often aln February It has carnival, it has
+repeats often alof samba, I am a boy of ordinary
+repeats often aluse I don't owe anything to anybody
+warm air can hold a lot of water vapuse I don't owe anything to anybody
+condensation takes place and the vassed by God It is good for nature
+condensation takes place and the vause I don't owe anything to anybody
+means it can hold less water vd that is why I can do anything and
+direct sunlight hitting the land anfor my joy.
+The clouds then produce rain. It rause I don't owe anything to anybody
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python composeLyrics.py
+sun warms the land and sea and theof samba, I am a boy of ordinary
+the strong sun usually shines bed that is why I can do anything and
+condensation takes place and the vader, it's true But at home all my
+This climate is found near the equh myself alone. Child of samba child
+The clouds then produce rain. It raof samba, I am a boy of ordinary
+sun warms the land and sea and thed that is why I can do anything and
+direct sunlight hitting the land anuse I don't owe anything to anybody
+condensation takes place and the vassed by God It is good for nature
+direct sunlight hitting the land anof samba, I am a boy of ordinary
+warm air can hold a lot of water vaph myself alone. Child of samba child
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git add -A
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git commit -m "I tried to just mix biome and tropical and then substitute it with names of countries random words, but I actually like the lyrics I have"
+[master 70a4459] I tried to just mix biome and tropical and then substitute it with names of countries random words, but I actually like the lyrics I have
+ Committer: Jacquelyn Zen <itpstudent@172-16-247-159.DYNAPOOL.NYU.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 16 insertions(+), 8 deletions(-)
+ create mode 100644 Hw4_ListsDictionaries/wordChange.py
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ git push
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 731 bytes | 0 bytes/s, done.
+Total 5 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/RSofiaC/RWET.git
+   c16a7ee..70a4459  master -> master
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ ls
+biome.txt		newBelt.txt		radomize.py		wordChange.py
+composeLyrics.py	noNumbers.py		songLyrics.txt
+dictonary.py		paisTropical.txt	theBelt.txt
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python dictonary.py< songLyrics.txt
+  File "dictonary.py", line 4
+    letters = {'b':'1','l';'2'}
+                          ^
+SyntaxError: invalid syntax
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python dictonary.py< songLyrics.txt
+Traceback (most recent call last):
+  File "dictonary.py", line 13, in <module>
+    letters[first_letter].append(word)
+AttributeError: 'str' object has no attribute 'append'
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ python dictonary.py< songLyrics.txt
+and
+by
+cyclefor
+droplets
+else.
+forms
+good
+has
+is
+joy.
+moreder,
+nature
+ordinary
+storms.
+there
+water
+172-16-247-159:Hw4_ListsDictionaries itpstudent$ 
