@@ -17,6 +17,7 @@ for line in sys.stdin:
 # you: 3
 # sort it by count descending? <- hard
 for key, val in count.iteritems():
-	print key + ":" + str(val)
+	if val > 1:
+		print key + ":" + str(val)
 
 
