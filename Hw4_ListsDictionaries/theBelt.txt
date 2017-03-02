@@ -15,7 +15,8 @@ needs a very specific climate and environment in order to grow.
 14. Costa Rica 
 15. Panama 
 16. Colombia* 
-17. Ecuador 18. Peru 
+17. Ecuador 
+18. Peru 
 19. Bolivia 
 20. Sudan 
 21. Cameroon 
@@ -30,7 +31,8 @@ needs a very specific climate and environment in order to grow.
 30. Uganda* 
 31. Burundi 
 32. Tanzania 
-33. Madagascar 34. India* 
+33. Madagascar 
+34. India* 
 35. Vietnam* 
 36. Philippines 
 37. Indonesia* 

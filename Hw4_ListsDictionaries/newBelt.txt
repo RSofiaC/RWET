@@ -15,7 +15,8 @@ Brazil*
  Costa Rica
  Panama
  Colombia*
- Ecuador 18. Peru
+ Ecuador
+ Peru
  Bolivia
  Sudan
  Cameroon
@@ -30,7 +31,8 @@ Brazil*
  Uganda*
  Burundi
  Tanzania
- Madagascar 34. India*
+ Madagascar
+ India*
  Vietnam*
  Philippines
  Indonesia*
