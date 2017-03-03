@@ -1,0 +1,63 @@
+Last login: Thu Mar  2 12:51:38 on ttys000
+172-16-228-41:~ itpstudent$ cd Desktop
+172-16-228-41:Desktop itpstudent$ mkdir regina
+172-16-228-41:Desktop itpstudent$ ls
+Adobe Premiere Pro Audio Previews		ElizabethWhiteMeshModelUnity.unity.meta 2	obj0.fbx					s_0.fbx
+Adobe Premiere Pro Auto-Save			J.r.ai						obj1.mtl					sci_test
+Adobe Premiere Pro Video Previews		Networking-Test-Kit-master			obj1.obj					sci_test.zip
+Archive.zip					Screen Shot 2017-02-13 at 12.33.14 PM.png	png						scissors_all.blend
+DirectingVR_Week3.prproj			model_mesh.mtl					premiere temp					scissors_all.blend1
+ElizabethWhiteMeshModelUnity.unity.meta		model_mesh.obj					regina						whatever
+172-16-228-41:Desktop itpstudent$ cd regina
+172-16-228-41:regina itpstudent$ git clone https://github.com/RSofiaC/RWET.git
+Cloning into 'RWET'...
+remote: Counting objects: 66, done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 66 (delta 26), reused 44 (delta 13), pack-reused 0
+Unpacking objects: 100% (66/66), done.
+Checking connectivity... done.
+172-16-228-41:regina itpstudent$ cd RWET
+172-16-228-41:RWET itpstudent$ mkdir C_Mar3
+172-16-228-41:RWET itpstudent$ cd C_Mar3
+172-16-228-41:C_Mar3 itpstudent$ python
+Python 2.7.10 (default, Jul 30 2016, 19:40:32) 
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> capitals = {"Alaska":"Juneau", "New York:"Albany", "Utah":"Salt Lake City"}
+  File "<stdin>", line 1
+    capitals = {"Alaska":"Juneau", "New York:"Albany", "Utah":"Salt Lake City"}
+                                                   ^
+SyntaxError: invalid syntax
+>>> capitals = {"Alaska":"Juneau", "New York":"Albany", "Utah":"Salt Lake City"}
+>>> capitals ["Alaska"]
+'Juneau'
+>>> capitals.keys()
+['New York', 'Utah', 'Alaska']
+>>> capitals ['Californi'} = 'Sacramento'
+  File "<stdin>", line 1
+    capitals ['Californi'} = 'Sacramento'
+                         ^
+SyntaxError: invalid syntax
+>>> capitals ['California'} = 'Sacramento'
+  File "<stdin>", line 1
+    capitals ['California'} = 'Sacramento'
+                          ^
+SyntaxError: invalid syntax
+>>> capitals ['California'] = 'Sacramento'
+>>> capitals
+{'California': 'Sacramento', 'New York': 'Albany', 'Utah': 'Salt Lake City', 'Alaska': 'Juneau'}
+>>> capitals.values()
+['Sacramento', 'Albany', 'Salt Lake City', 'Juneau']
+>>> 
+KeyboardInterrupt
+>>> 
+>>> for key, val in 
+  File "<stdin>", line 1
+    for key, val in 
+                   ^
+SyntaxError: invalid syntax
+>>> import urllib
+>>> urllib.urlencode({"name":"thom yorke",
+
+
+
