@@ -1,0 +1,153 @@
+Last login: Thu Mar 23 10:58:42 on ttys000
+172-16-228-24:~ itpstudent$ cd Desktop
+172-16-228-24:Desktop itpstudent$ cd regina
+172-16-228-24:regina itpstudent$ python
+Python 3.6.0 |Continuum Analytics, Inc.| (default, Dec 23 2016, 13:19:00) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> text = "this is a tes, Arlene"
+>>> print text
+  File "<stdin>", line 1
+    print text
+             ^
+SyntaxError: Missing parentheses in call to 'print'
+>>> text.title()
+'This Is A Tes, Arlene'
+>>> "it's my party and I'll cry if I want to".title()
+"It'S My Party And I'Ll Cry If I Want To"
+>>> text.title()
+'This Is A Tes, Arlene'
+>>> text.capitalize()
+'This is a tes, arlene'
+>>> text
+'this is a tes, Arlene'
+>>> text[0].upper + text[1:]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'builtin_function_or_method' and 'str'
+>>> text[0].upper() + text[1:]
+'This is a tes, Arlene'
+>>> len(text)
+21
+>>> type(text)
+<class 'str'>
+>>> import random
+>>> random.choice ([1,2,3,4])
+1
+>>> random.choice ([1,2,3,4])
+1
+>>> random.choice ([1,2,3,4])
+2
+>>> random.choice ([1,2,3,4])
+4
+>>> random.choice ([1,2,3,4])
+2
+>>> ucfirst("this is a test,Arlene")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ucfirst' is not defined
+>>> def ucfirst(s):
+...     return s[0].upper() + s[1:]
+... 
+>>> ucfirst(text)
+'This is a tes, Arlene'
+>>> ucfirst("jakunamatata)
+  File "<stdin>", line 1
+    ucfirst("jakunamatata)
+                         ^
+SyntaxError: EOL while scanning string literal
+>>> ucfirst("jakunamatata")
+'Jakunamatata'
+>>> 
+172-16-228-24:regina itpstudent$ cd RWET
+172-16-228-24:RWET itpstudent$ ls
+C_Mar23				Hw3_ListsLoops			Hw5_DicsAPIs			RWET				plain-text-example-files
+C_Mar3				Hw4_ListsDictionaries		README.md			Terminal_Mar9
+172-16-228-24:RWET itpstudent$ cd C_Mar23
+172-16-228-24:C_Mar23 itpstudent$ python
+Python 3.6.0 |Continuum Analytics, Inc.| (default, Dec 23 2016, 13:19:00) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def halfsis(left,right):
+...     left_part = left[:len(left)/2]
+...     right_part = right[len(right)/2]
+...     return left_part + right_part
+... 
+>>> halfsies("greetings","goodbye")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'halfsies' is not defined
+>>> halfsis("greetings","goodbye")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in halfsis
+TypeError: slice indices must be integers or None or have an __index__ method
+>>> 
+>>> 
+172-16-228-24:C_Mar23 itpstudent$ python
+Python 3.6.0 |Continuum Analytics, Inc.| (default, Dec 23 2016, 13:19:00) 
+[GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> def halfsies(left,right):
+...     left_part = left[:len(left)/2]
+...     right_part = right[len(right)/2:)
+  File "<stdin>", line 3
+    right_part = right[len(right)/2:)
+                                    ^
+SyntaxError: invalid syntax
+>>> def halfsies(left,right):
+...     left_part = left[:len(left)/2]
+...     right_part = right[len(right)/2:]
+...     return left_part + right_part
+... 
+>>> halfsies("greetings" , "goodbye")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in halfsies
+TypeError: slice indices must be integers or None or have an __index__ method
+>>> "*".join(["this","goes","together"])
+'this*goes*together'
+>>> def human_join(parts, conjunction):
+...     if len(parts) == 1:
+...             return parts[0]
+...     return ', '.join(parts[:-1}) + " " + conjunction + " " + parts[-1] 
+  File "<stdin>", line 4
+    return ', '.join(parts[:-1}) + " " + conjunction + " " + parts[-1] 
+                              ^
+SyntaxError: invalid syntax
+>>> def human_join(parts, conjunction):
+...     if len(parts) == 1:
+...             return parts[0]
+...     return ', '.join(parts[:-1]) + " " + conjunction + " " + parts[-1] 
+... 
+>>> human_join(["an aple", "a banana", "a crocodile"], "or")
+'an aple, a banana or a crocodile'
+>>> def restaurant(building="House", foodstuff+"Pancakes"):
+  File "<stdin>", line 1
+    def restaurant(building="House", foodstuff+"Pancakes"):
+                                              ^
+SyntaxError: invalid syntax
+>>> def restaurant(building="House", foodstuff="Pancakes"):
+...     return " International " + building + " of " + foodstuff
+... 
+>>> restaurant(Cabin,eggs)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Cabin' is not defined
+>>> restaurant("Cabin","eggs")
+' International Cabin of eggs'
+>>> import restaurants_forever
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/itpstudent/Desktop/regina/RWET/C_Mar23/restaurants_forever.py", line 21
+    print restaurant(building=random.choice(noun_list),
+                   ^
+SyntaxError: invalid syntax
+>>> import restaurants_forever
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/Users/itpstudent/Desktop/regina/RWET/C_Mar23/restaurants_forever.py", line 23
+    print restaurant(building=random.choice(noun_list),
+                   ^
+SyntaxError: invalid syntax
+>>> 
