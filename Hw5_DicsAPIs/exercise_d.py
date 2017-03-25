@@ -1,7 +1,7 @@
 #
 # Worksheet #4
 #
-# This worksheet is also a Python program. Your task is to read the 
+# This worksheet is also a Python program. Your task is to read the
 # task descriptions below and then write one or more Python statements to
 # carry out the tasks. There's a Python "print" statement before each
 # task that will display the expected output for that task; you can use
@@ -13,7 +13,7 @@
 
 print "\n------"
 print "Task 1: Making a web request"
-print 'Expected output: {"ping": "ok"}'
+print 'DONE Expected output: {"ping": "ok"}'
 
 # Task 1: There is a web API (which I made specifically for this worksheet!)
 # available at the following URL:
@@ -30,7 +30,7 @@ print response
 
 print "\n------"
 print "Task 2: Parsing JSON"
-print "Expected output: <type 'dict'>"
+print "DONE Expected output: <type 'dict'>"
 
 # Task 2: The web API also supports a path called "/kittens", which returns
 # a list of kittens in JSON format. Add a function call to the line below
@@ -41,14 +41,14 @@ print "Expected output: <type 'dict'>"
 import json
 url = "http://blooming-shelf-7827.herokuapp.com/kittens"
 response = urllib.urlopen(url).read()
-data = response.read() # <-- add a function call here!
+data = json.loads(response) # <-- add a function call here!
 print type(data)
 
 #------------------------------------------------------------------------
 
 print "\n------"
 print "Task 3: Manipulating URLs, part one"
-print 'Expected output: ["results"]'
+print 'DONE Expected output: ["results"]'
 
 # Task 3: You may have noticed that the previous response actually returned
 # an error! That's because this particular API requires that you supply an
@@ -56,7 +56,7 @@ print 'Expected output: ["results"]'
 # Modify the variable "url" below so that it has a query string with one
 # parameter, "api_key", whose value is "abc123".
 
-url = "http://blooming-shelf-7827.herokuapp.com/kittens" # <-- modify this
+url = "http://blooming-shelf-7827.herokuapp.com/kittens?api_key=abc123" # <-- modify this
 response = urllib.urlopen(url).read()
 # uncomment the following line if you want to see what the response looks like
 #print response
@@ -67,7 +67,7 @@ print data.keys()
 
 print "\n------"
 print "Task 4: Working with web API data"
-print "Expected output: 3"
+print "DONE Expected output: 3"
 
 # Task 4: A request to "/kittens" (with the appropriate API key) returns a
 # list of kittens. Modify the expression following "print" below so that the
@@ -78,24 +78,25 @@ response = urllib.urlopen(url).read()
 # uncomment the following line if you want to see what the response looks like
 #print response
 data = json.loads(response)
-print data # <-- modify this!
+print len (data['results']) # <-- modify this!
 
 #------------------------------------------------------------------------
 
 print "\n------"
 print "Task 5: Working with embedded data structures"
-print "Expected output:"
-print "  McFluff the Crime Kitten"
-print "  Scratch"
-print "  Her Majesty Queen Esmerelda Poopbutt"
+#print "Expected output:"
+#print "  McFluff the Crime Kitten"
+#print "  Scratch"
+#print "  Her Majesty Queen Esmerelda Poopbutt"
 
 # Task 5: Use the variable "data" from the previous task. Modify the two
 # expressions indicated below so that the names of each of the kittens are
-# displayed. (Take a good look at the data structure returned from the 
+# displayed. (Take a good look at the data structure returned from the
 # response. What kind of data structure is it? What other kinds of data
 # structures does it contain?)
 
-kitten_list = [] # <-- modify this! Hint: the value for a key in "data"
+kitten_list = data['results'] # <-- modify this! Hint: the value for a key in "data"
+print kitten_list
 for kitten in kitten_list:
 	print "" # <-- modify this too! Hint: "kitten" is a dictionary
 
