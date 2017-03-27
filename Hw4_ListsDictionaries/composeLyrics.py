@@ -7,7 +7,7 @@ for line in open('biome.txt'):
         biome_lines.append(line)
 
 tropical_lines = list()
-for line in open('paisTropical.txt'):
+for line in open('beltTropical.txt'): #before paisTropical.txt
     line = line.strip()
     if len(line) > 0:
         tropical_lines.append(line)
