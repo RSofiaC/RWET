@@ -84,7 +84,7 @@ print len (data['results']) # <-- modify this!
 
 print "\n------"
 print "Task 5: Working with embedded data structures"
-#print "Expected output:"
+print "DONE IN OH Expected output:"
 #print "  McFluff the Crime Kitten"
 #print "  Scratch"
 #print "  Her Majesty Queen Esmerelda Poopbutt"
@@ -96,9 +96,9 @@ print "Task 5: Working with embedded data structures"
 # structures does it contain?)
 
 kitten_list = data['results'] # <-- modify this! Hint: the value for a key in "data"
-print kitten_list
+#print kitten_list
 for kitten in kitten_list:
-	print "" # <-- modify this too! Hint: "kitten" is a dictionary
+	print kitten['name'] # <-- when printing we have to remind it to look into the temporary variable kitten
 
 #------------------------------------------------------------------------
 
@@ -117,13 +117,23 @@ print "  Scratch"
 # names of the kittens in (ascending) order by weight. (Hint: don't forget
 # to include your API key!)
 
-base_url = "http://blooming-shelf-7827.herokuapp.com/kittens?"
-params = urllib.urlencode({}) # <-- modify this dictionary
-url = base_url + params
+base_url = "http://blooming-shelf-7827.herokuapp.com/kittens?api_key=abc123"
+#params = urllib.urlencode({weight_kg:1.6,weight_kg:2.0}) # <-- modify this dictionary
+url = base_url + "weight_kg=1.6&weight_kg=2.0&weight_kg=3.7"
+print url
 response = urllib.urlopen(url).read()
 data = json.loads(response)
 for kitten in data['results']:
 	print kitten['name']
+
+#It keps on giving me the kittens in the order they are in results. I am not
+#using params because if I do it, it only prints the last parameter in the new
+#dictonary (weight_kg:2.0 in this case)
+#How am I writing params wrong?
+#Should I be retriving the kittens from response? or should I tell params to get
+#the parameters from 'results' How?
+#*I'm using the same key three times, that is why it gives me the last one, How
+#to let it know it has to differenciate them?
 
 #------------------------------------------------------------------------
 
@@ -141,20 +151,30 @@ print "  chicken"
 
 response = urllib.urlopen(url).read()
 data = json.loads(response)
-for kitten in data['results']:
-	print "" # <-- modify this expression!
-
+for kitten in kitten_list.item:
+	print kitten, 'favorite_foods'[0] # -- modify this expression!
+#I've tried kitten['favorite_foods'[0]]
+#           kitten['favorite_foods':[0]]
+#           kitten['favorite_foods':0]
+#           kitten['favorite_foods:0']
+#           kitten['favorite_foods:0']
+#           kitten"'favorite_foods':[0]"
+#           kitten('favorite_foods':[0])
+#           ('favorite_foods':[0])
+# I need to access the kitten list and in it get favorite foods and in it get
+#the first item HOW TO WRITE IT?!
+#           kitten, 'favorite_foods'[0] 
 #------------------------------------------------------------------------
 
-print "\n------"
-print "Task 8: Working with embedded data structures, part three (advanced!)"
-print "Expected output: 7.3"
+#print "\n------"
+#print "Task 8: Working with embedded data structures, part three (advanced!)"
+#print "Expected output: 7.3"
 
 # Task 8: Write a list comprehension in the indicated space that returns a
 # list of the values for the "weight_kg" field in each kitten record.
 # The resulting expression will pring out the sum of their weights. (Use the
 # value of "url" from the previous task.)
 
-response = urllib.urlopen(url).read()
-data = json.loads(response)
-print sum([]) # <-- change [] to a list comprehension
+#response = urllib.urlopen(url).read()
+#data = json.loads(response)
+#print sum([]) # <-- change [] to a list comprehension
