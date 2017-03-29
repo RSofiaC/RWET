@@ -1,0 +1,390 @@
+Last login: Wed Mar  1 16:05:22 on console
+172-16-247-159:~ itpstudent$ cd Desktop
+172-16-247-159:Desktop itpstudent$ mkdir regina
+172-16-247-159:Desktop itpstudent$ cd regina
+172-16-247-159:regina itpstudent$ git clone https://github.com/RSofiaC/RWET.git
+2017-03-01 17:54:31.306 xcodebuild[1520:116456] [MT] PluginLoading: Required plug-in compatibility UUID E0A62D1F-3C18-4D74-BFE5-A4167D643966 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-03-01 17:54:31.309 xcodebuild[1520:116456] Failed to load plugin at: /Users/itpstudent/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Unity4XC.xcplugin, skipping.  Reason for failure: *** -[__NSPlaceholderDictionary initWithObjects:forKeys:count:]: attempt to insert nil object from objects[0]
+Cloning into 'RWET'...
+remote: Counting objects: 27, done.
+remote: Compressing objects: 100% (20/20), done.
+remote: Total 27 (delta 10), reused 15 (delta 5), pack-reused 0
+Unpacking objects: 100% (27/27), done.
+172-16-247-159:regina itpstudent$ 
+172-16-247-159:regina itpstudent$ cd RWET
+172-16-247-159:RWET itpstudent$ ls
+Hw3_ListsLoops	README.md
+172-16-247-159:RWET itpstudent$ Hw3_ListsLoops
+-bash: Hw3_ListsLoops: command not found
+172-16-247-159:RWET itpstudent$ cd Hw3_ListsLoops
+172-16-247-159:Hw3_ListsLoops itpstudent$ ls
+abracadabra.py	magicwords.txt	nightspell.txt	salacamula.py	sunspell.txt
+black.txt	moonspell.txt	radomize.py	spell.txt
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat moonspell.txt
+color was black always your favorite
+pen inkwell the that the like beckons
+night with million a spangled stars like the
+rides like your the machine sleek ego
+thoughts dare like the speak naked you not
+
+was always color chose the you black
+a to attention in draw crowd
+your personality the splinters to of cover
+spirits to the pave for wayward way
+the to you from separate sheep
+
+the to blackness was always I attracted
+color of your hair the of
+me of eyes enticed that those
+the secrets you deep of within
+of enthralled me magic the that
+
+but I when followed was blindly that
+demise, path my down to the
+a times I thousand when drowned
+the black eyes. depths those within of
+
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat spell.txt
+loomi en gurth 
+nai turamin 
+ring wing 
+irma haeannon 
+lietha guldur 
+bragol alaa 
+gorgamin 
+amin vasa lle sinta 
+naur tinchor ostring 
+nai uuvanimo turamin
+bragol thalion
+loomi tanya lirva amin
+lanta kaima
+tinechor
+parm templa tengwa
+karn aduamin
+pela tanya tempa aiguldur
+templa pilini'
+lanta en' kalale
+lle quella
+amin quella
+khelek hurro'
+n'tess gothamin
+n'tess uuvanimo
+asca melloneamin
+bragollach tel'llach
+naur tinchor osturra
+172-16-247-159:Hw3_ListsLoops itpstudent$  cat magicwords.txt
+color was black always your favorite
+pen inkwell the that the like beckons
+night with million a spangled stars like the
+rides like your the machine sleek ego
+thoughts dare like the speak naked you not
+
+was always color chose the you black
+a to attention in draw crowd
+your personality the splinters to of cover
+spirits to the pave for wayward way
+the to you from separate sheep
+
+the to blackness was always I attracted
+color of your hair the of
+me of eyes enticed that those
+the secrets you deep of within
+of enthralled me magic the that
+
+but I when followed was blindly that
+demise, path my down to the
+a times I thousand when drowned
+the black eyes. depths those within of
+
+en gurth loomi
+turamin nai
+ring wing
+haeannon irma
+lietha guldur
+bragol alaa
+gorgamin
+sinta lle vasa amin
+tinchor naur ostring
+nai turamin uuvanimo
+bragol thalion
+tanya loomi amin lirva
+lanta kaima
+tinechor
+tengwa parm templa
+karn aduamin
+tempa tanya pela aiguldur
+pilini' templa
+lanta kalale en'
+lle quella
+quella amin
+khelek hurro'
+n'tess gothamin
+uuvanimo n'tess
+melloneamin asca
+bragollach tel'llach
+tinchor osturra naur
+h
+s
+
+n
+u
+a
+r
+o
+r
+u
+t
+o
+i
+c
+t
+r
+
+r
+a
+n
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat moonspell.txt
+color was black always your favorite
+pen inkwell the that the like beckons
+night with million a spangled stars like the
+rides like your the machine sleek ego
+thoughts dare like the speak naked you not
+
+was always color chose the you black
+a to attention in draw crowd
+your personality the splinters to of cover
+spirits to the pave for wayward way
+the to you from separate sheep
+
+the to blackness was always I attracted
+color of your hair the of
+me of eyes enticed that those
+the secrets you deep of within
+of enthralled me magic the that
+
+but I when followed was blindly that
+demise, path my down to the
+a times I thousand when drowned
+the black eyes. depths those within of
+
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat nightspell.txt
+t
+
+was always color chose the you black
+quella amin
+t
+c
+a
+r
+i
+a to attention in draw crowd
+s
+lle quella
+me of eyes enticed that those
+u
+n'tess gothamin
+n
+tengwa parm templa
+haeannon irma
+melloneamin asca
+sinta lle vasa amin
+
+bragol alaa
+a times I thousand when drowned
+rides like your the machine sleek ego
+ring wing
+a
+tinechor
+o
+uuvanimo n'tess
+
+bragol thalion
+tinchor naur ostring
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+r
+color of your hair the of
+nai turamin uuvanimo
+lietha guldur
+khelek hurro'
+pilini' templa
+lanta kaima
+karn aduamin
+
+demise, path my down to the
+lanta kalale en'
+turamin nai
+r
+spirits to the pave for wayward way
+r
+bragollach tel'llach
+night with million a spangled stars like the
+tinchor osturra naur
+but I when followed was blindly that
+n
+tanya loomi amin lirva
+u
+tempa tanya pela aiguldur
+the secrets you deep of within
+en gurth loomi
+
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+
+color was black always your favorite
+o
+h
+gorgamin
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py< nightspell.txt
+Traceback (most recent call last):
+  File "cleanup.py", line 4, in <module>
+    for line in all_lines:
+NameError: name 'all_lines' is not defined
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py< nightspell.txt
+was always color chose the you black
+quella amin
+a to attention in draw crowd
+lle quella
+me of eyes enticed that those
+n'tess gothamin
+tengwa parm templa
+haeannon irma
+melloneamin asca
+sinta lle vasa amin
+bragol alaa
+a times I thousand when drowned
+rides like your the machine sleek ego
+ring wing
+tinechor
+uuvanimo n'tess
+bragol thalion
+tinchor naur ostring
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+color of your hair the of
+nai turamin uuvanimo
+lietha guldur
+khelek hurro'
+pilini' templa
+lanta kaima
+karn aduamin
+demise, path my down to the
+lanta kalale en'
+turamin nai
+spirits to the pave for wayward way
+bragollach tel'llach
+night with million a spangled stars like the
+tinchor osturra naur
+but I when followed was blindly that
+tanya loomi amin lirva
+tempa tanya pela aiguldur
+the secrets you deep of within
+en gurth loomi
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+color was black always your favorite
+gorgamin
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py< nightspell.txt > closerspell.txt
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat closerspell.txt
+was always color chose the you black
+quella amin
+a to attention in draw crowd
+lle quella
+me of eyes enticed that those
+n'tess gothamin
+tengwa parm templa
+haeannon irma
+melloneamin asca
+sinta lle vasa amin
+bragol alaa
+a times I thousand when drowned
+rides like your the machine sleek ego
+ring wing
+tinechor
+uuvanimo n'tess
+bragol thalion
+tinchor naur ostring
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+color of your hair the of
+nai turamin uuvanimo
+lietha guldur
+khelek hurro'
+pilini' templa
+lanta kaima
+karn aduamin
+demise, path my down to the
+lanta kalale en'
+turamin nai
+spirits to the pave for wayward way
+bragollach tel'llach
+night with million a spangled stars like the
+tinchor osturra naur
+but I when followed was blindly that
+tanya loomi amin lirva
+tempa tanya pela aiguldur
+the secrets you deep of within
+en gurth loomi
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+color was black always your favorite
+gorgamin
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py < closerspell.txt
+your personality the splinters to of cover
+night with million a spangled stars like the
+thoughts dare like the speak naked you not
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py < closerspell.txt
+was always color chose the you black
+a to attention in draw crowd
+me of eyes enticed that those
+a times I thousand when drowned
+rides like your the machine sleek ego
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+color of your hair the of
+demise, path my down to the
+spirits to the pave for wayward way
+night with million a spangled stars like the
+but I when followed was blindly that
+tanya loomi amin lirva
+tempa tanya pela aiguldur
+the secrets you deep of within
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+color was black always your favorite
+172-16-247-159:Hw3_ListsLoops itpstudent$ python cleanup.py < closerspell.txt > finalSpell.txt
+172-16-247-159:Hw3_ListsLoops itpstudent$ cat finalSpell.txt
+was always color chose the you black
+a to attention in draw crowd
+me of eyes enticed that those
+a times I thousand when drowned
+rides like your the machine sleek ego
+the black eyes. depths those within of
+the to blackness was always I attracted
+your personality the splinters to of cover
+of enthralled me magic the that
+the to you from separate sheep
+color of your hair the of
+demise, path my down to the
+spirits to the pave for wayward way
+night with million a spangled stars like the
+but I when followed was blindly that
+tanya loomi amin lirva
+tempa tanya pela aiguldur
+the secrets you deep of within
+pen inkwell the that the like beckons
+thoughts dare like the speak naked you not
+color was black always your favorite
+172-16-247-159:Hw3_ListsLoops itpstudent$ 
