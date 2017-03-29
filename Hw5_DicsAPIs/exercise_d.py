@@ -76,6 +76,7 @@ print "DONE Expected output: 3"
 
 response = urllib.urlopen(url).read()
 # uncomment the following line if you want to see what the response looks like
+
 print response
 data = json.loads(response)
 print len (data['results']) # <-- modify this!
@@ -108,6 +109,7 @@ print "DONE Expected output:"
 #print "  McFluff the Crime Kitten"
 #print "  Her Majesty Queen Esmerelda Poopbutt"
 #print "  Scratch"
+
 
 # Task 6: This API also allows you to specify a sort order for the kittens
 # returned in the data. To take advantage of this functionality, include a key
@@ -145,6 +147,7 @@ print "DONE Expected output:"
 #print "  duck"
 #print "  chicken"
 
+
 # Task 7: Use the variable "url" from the previous task. The value for each
 # kitten's "favorite_foods" key is a list of strings. Change the indicated
 # expression below so that the code prints out the first favorite food for
@@ -155,6 +158,7 @@ response = urllib.urlopen(url).read()
 data = json.loads(response)
 for kitten in ordered_kittens:
 	print kitten['favorite_foods'][0] # -- modify this expression!
+
 #I've tried kitten['favorite_foods'[0]]
 #           kitten['favorite_foods':[0]]
 #           kitten['favorite_foods':0]
