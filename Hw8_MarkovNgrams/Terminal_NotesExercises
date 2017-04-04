@@ -1,0 +1,2979 @@
+Last login: Tue Apr  4 14:34:13 on console
+172-16-226-133:~ staff$ cd Desktop
+172-16-226-133:Desktop staff$ mkdir regina
+172-16-226-133:Desktop staff$ cd regina
+172-16-226-133:regina staff$ git clone https://github.com/RSofiaC/RWET.git
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.
+
+
+172-16-226-133:regina staff$ git credential osxkeychain erase
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please re-run as root via sudo.
+
+
+172-16-226-133:regina staff$ git clone https://github.com/RSofiaC/RWET.git
+Cloning into 'RWET'...
+remote: Counting objects: 180, done.
+remote: Total 180 (delta 0), reused 0 (delta 0), pack-reused 180
+Receiving objects: 100% (180/180), 1.68 MiB | 0 bytes/s, done.
+Resolving deltas: 100% (76/76), done.
+172-16-226-133:regina staff$ git credential -osxkeychain erase
+hist= github.com
+
+usage: git credential [fill|approve|reject]
+172-16-226-133:regina staff$ git credential -osxkeychain erase
+host = github.com
+protocol = https
+
+usage: git credential [fill|approve|reject]
+172-16-226-133:regina staff$ cd RWET
+172-16-226-133:RWET staff$ ls
+C_Mar23				C_Mar30				Hw4_ListsDictionaries		Hw6_poetryGenerator		README.md			plain-text-example-files
+C_Mar3				Hw3_ListsLoops			Hw5_DicsAPIs			Hw7_functionsModules		Terminal_Mar9
+172-16-226-133:RWET staff$ Hw8_MarkovNgrams
+-bash: Hw8_MarkovNgrams: command not found
+172-16-226-133:RWET staff$ mkdir Hw8_MarkovNgrams
+172-16-226-133:RWET staff$ cd Hw8_MarkovNgrams
+172-16-226-133:Hw8_MarkovNgrams staff$ ls
+frost.txt	sea_rose.txt	sonnets.txt	word_pairs.py
+172-16-226-133:Hw8_MarkovNgrams staff$ python word_pairs.py<frost.txt
+  File "word_pairs.py", line 11
+    continue
+SyntaxError: 'continue' not properly in loop
+172-16-226-133:Hw8_MarkovNgrams staff$ python word_pairs.py<frost.txt
+  File "word_pairs.py", line 11
+    continue
+SyntaxError: 'continue' not properly in loop
+172-16-226-133:Hw8_MarkovNgrams staff$ python word_pairs.py<frost.txt
+Traceback (most recent call last):
+  File "word_pairs.py", line 5, in <module>
+    line = line.strip() #remove all white space
+NameError: name 'line' is not defined
+172-16-226-133:Hw8_MarkovNgrams staff$ python word_pairs.py<frost.txt
+Traceback (most recent call last):
+  File "word_pairs.py", line 5, in <module>
+    for line in sys.stdin():
+TypeError: 'file' object is not callable
+172-16-226-133:Hw8_MarkovNgrams staff$ ls
+frost.txt	sea_rose.txt	sonnets.txt	word_pairs.py
+172-16-226-133:Hw8_MarkovNgrams staff$ ls
+example_pairs		example_pairs.py	frost.txt		sea_rose.txt		sonnets.txt		word_pairs.py
+172-16-226-133:Hw8_MarkovNgrams staff$ python example_pairs.py < frost.txt
+Two roads
+roads diverged
+diverged in
+in a
+a yellow
+yellow wood,
+And sorry
+sorry I
+I could
+could not
+not travel
+travel both
+And be
+be one
+one traveler,
+traveler, long
+long I
+I stood
+And looked
+looked down
+down one
+one as
+as far
+far as
+as I
+I could
+To where
+where it
+it bent
+bent in
+in the
+the undergrowth;
+Then took
+took the
+the other,
+other, as
+as just
+just as
+as fair,
+And having
+having perhaps
+perhaps the
+the better
+better claim,
+Because it
+it was
+was grassy
+grassy and
+and wanted
+wanted wear;
+Though as
+as for
+for that
+that the
+the passing
+passing there
+Had worn
+worn them
+them really
+really about
+about the
+the same,
+And both
+both that
+that morning
+morning equally
+equally lay
+In leaves
+leaves no
+no step
+step had
+had trodden
+trodden black.
+Oh, I
+I kept
+kept the
+the first
+first for
+for another
+another day!
+Yet knowing
+knowing how
+how way
+way leads
+leads on
+on to
+to way,
+I doubted
+doubted if
+if I
+I should
+should ever
+ever come
+come back.
+I shall
+shall be
+be telling
+telling this
+this with
+with a
+a sigh
+Somewhere ages
+ages and
+and ages
+ages hence:
+Two roads
+roads diverged
+diverged in
+in a
+a wood,
+wood, and
+and I—
+I took
+took the
+the one
+one less
+less travelled
+travelled by,
+And that
+that has
+has made
+made all
+all the
+the difference.
+172-16-226-133:Hw8_MarkovNgrams staff$ python word_pairs.py<frost.txt
+Two roads
+roads diverged
+diverged in
+in a
+a yellow
+yellow wood,
+And sorry
+sorry I
+I could
+could not
+not travel
+travel both
+And be
+be one
+one traveler,
+traveler, long
+long I
+I stood
+And looked
+looked down
+down one
+one as
+as far
+far as
+as I
+I could
+To where
+where it
+it bent
+bent in
+in the
+the undergrowth;
+Then took
+took the
+the other,
+other, as
+as just
+just as
+as fair,
+And having
+having perhaps
+perhaps the
+the better
+better claim,
+Because it
+it was
+was grassy
+grassy and
+and wanted
+wanted wear;
+Though as
+as for
+for that
+that the
+the passing
+passing there
+Had worn
+worn them
+them really
+really about
+about the
+the same,
+And both
+both that
+that morning
+morning equally
+equally lay
+In leaves
+leaves no
+no step
+step had
+had trodden
+trodden black.
+Oh, I
+I kept
+kept the
+the first
+first for
+for another
+another day!
+Yet knowing
+knowing how
+how way
+way leads
+leads on
+on to
+to way,
+I doubted
+doubted if
+if I
+I should
+should ever
+ever come
+come back.
+I shall
+shall be
+be telling
+telling this
+this with
+with a
+a sigh
+Somewhere ages
+ages and
+and ages
+ages hence:
+Two roads
+roads diverged
+diverged in
+in a
+a wood,
+wood, and
+and I—
+I took
+took the
+the one
+one less
+less travelled
+travelled by,
+And that
+that has
+has made
+made all
+all the
+the difference.
+172-16-226-133:Hw8_MarkovNgrams staff$ ls
+EXcount_word_pairs.py	frost.txt		sea_rose.txt		sonnets.txt		word_pairs.py
+172-16-226-133:Hw8_MarkovNgrams staff$ EXcount_word_pairs.py<frost.txt
+-bash: EXcount_word_pairs.py: command not found
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<frost.txt
+  File "EXcount_word_pairs.py", line 17
+    else
+       ^
+SyntaxError: invalid syntax
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<frost.txt
+Traceback (most recent call last):
+  File "EXcount_word_pairs.py", line 13, in <module>
+    for i in range(len(words - 1)):
+TypeError: unsupported operand type(s) for -: 'list' and 'int'
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<frost.txt
+roads diverged: 2
+took the: 2
+diverged in: 2
+Two roads: 2
+I could: 2
+in a: 2
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<frost.txt
+roads diverged: 2
+took the: 2
+diverged in: 2
+Two roads: 2
+I could: 2
+in a: 2
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<sea_rose.txt
+you are: 3
+in the: 3
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<sonnets.txt
+you have: 3
+shalt find: 3
+born of: 2
+as thou: 6
+and that: 2
+by this: 2
+thee that: 4
+love is: 5
+And like: 2
+So shall: 3
+the fairest: 2
+and he: 3
+no form: 2
+too much: 4
+love, be: 2
+conquest of: 2
+must be: 2
+thou hadst: 2
+life on: 2
+Thou canst: 3
+Or as: 2
+breast doth: 2
+is but: 2
+do not: 11
+by that: 2
+despite thy: 2
+is best,: 2
+thy love,: 5
+'Fair, kind,: 2
+spite of: 2
+my judgment: 2
+thy sins: 3
+farther than: 2
+deeds to: 2
+That they: 2
+it were,: 2
+my life: 4
+And summer's: 2
+mine eyes: 3
+as mine,: 2
+being full: 2
+thy breast: 2
+love in: 2
+which flies: 2
+is it: 2
+are in: 2
+never saw: 2
+the judgment: 2
+to my: 14
+shall in: 2
+haste me: 2
+is thine,: 3
+love doth: 3
+Do I: 2
+self dost: 2
+So is: 3
+The world: 2
+you in: 3
+subject to: 2
+said I: 2
+I saw: 2
+thou in: 3
+not my: 3
+that love: 2
+Mine eye: 4
+Of his: 2
+barren of: 2
+all, or: 3
+That did: 2
+And then: 2
+That she: 3
+in love,: 4
+So that: 2
+not from: 2
+time that: 2
+life to: 2
+I to: 2
+what shall: 2
+mine eyes,: 3
+thou the: 2
+make them: 2
+though I: 4
+they with: 2
+mourn for: 2
+Which should: 2
+My tongue-tied: 2
+As any: 2
+a former: 2
+with me,: 2
+eye doth: 3
+it not: 4
+For thy: 3
+no longer: 2
+thy good: 2
+and the: 2
+to tell: 2
+by and: 2
+beauty shall: 2
+that bears: 2
+eye of: 2
+doth lie,: 2
+his beauty: 3
+So thou: 3
+then I: 2
+is the: 5
+life hath: 2
+That you: 5
+that the: 4
+out of: 3
+one of: 2
+by his: 2
+of true: 2
+is in: 5
+she hath: 2
+for their: 4
+love, my: 2
+of thine,: 2
+of such: 5
+the painter: 2
+know'st I: 2
+of hearts: 2
+the grave: 2
+change my: 2
+mayst thou: 2
+Nor can: 2
+For thee,: 2
+in thee: 10
+my sake: 4
+love that: 5
+absent from: 2
+glass shows: 2
+of love,: 3
+when they: 2
+his own: 2
+Or whether: 3
+Which for: 2
+hath not: 3
+and all: 5
+tell my: 2
+the eye: 3
+me for: 3
+but in: 4
+And found: 2
+and true,': 2
+more praise: 2
+to each: 2
+thou that: 2
+doth beauty: 2
+doth thy: 2
+Whilst I,: 2
+some in: 3
+worst to: 2
+And you: 5
+but the: 2
+and look: 3
+the day: 2
+I dare: 2
+I will: 8
+when from: 2
+to love: 2
+Which, like: 2
+me thou: 4
+bright in: 2
+make the: 4
+my heart: 13
+thy glass: 2
+But as: 2
+but not: 2
+love was: 2
+That it: 2
+this powerful: 2
+have sworn: 3
+his scythe: 2
+yet I: 3
+as an: 2
+it hath: 2
+not with: 5
+love shall: 2
+to the: 22
+thy outward: 2
+my purpose: 2
+my heart's: 2
+Without all: 2
+and thee.: 2
+When all: 2
+and my: 4
+Within the: 2
+hath his: 2
+to thy: 6
+And to: 7
+in their: 14
+As fast: 2
+as thy: 3
+as my: 2
+which yet: 2
+thy heart,: 4
+To make: 6
+wilt thou: 2
+thee my: 2
+that she: 2
+I love: 10
+the sun: 2
+becoming of: 2
+the best,: 2
+to make: 6
+of state,: 2
+of all: 7
+no such: 2
+thee thy: 2
+simple truth: 2
+of heaven: 2
+not the: 5
+with thine: 3
+thou wilt,: 2
+dare I: 2
+I bring: 2
+Love is: 4
+world should: 2
+as I: 2
+on my: 6
+that makes: 2
+that thou: 12
+I return: 2
+to me,: 5
+and then: 2
+should that: 2
+I question: 2
+In me: 2
+for love: 3
+world is: 2
+No longer: 2
+earth can: 2
+through the: 2
+Take all: 2
+in thy: 19
+that tongue: 2
+They are: 2
+For to: 2
+tell the: 2
+Let me: 3
+if they: 3
+But do: 3
+you shall: 2
+I then: 3
+look upon: 2
+with a: 5
+upon your: 2
+where you: 2
+my deeds: 3
+thine eyes: 3
+thou art,: 5
+that said: 2
+with you,: 2
+to Time's: 2
+much more: 2
+yet, love: 2
+holds her: 2
+me with: 4
+Let those: 2
+which thy: 2
+for the: 3
+Look! what: 2
+by their: 2
+a mortal: 2
+with his: 7
+is thy: 4
+own love's: 2
+Yet this: 3
+my dear: 3
+for thy: 6
+for my: 16
+say thy: 2
+which the: 2
+Dost thou: 2
+As the: 2
+As thou: 2
+from the: 8
+the better: 2
+now my: 2
+and beauty: 2
+The one: 2
+The humble: 2
+All men: 2
+myself, and: 2
+see'st the: 2
+the breath: 2
+from me: 2
+That is: 3
+short a: 2
+with this: 3
+my best: 3
+of more: 2
+thou dost: 10
+good turns: 2
+more bright: 2
+he takes: 2
+now I: 3
+and to: 3
+heart in: 3
+for his: 3
+Is it: 3
+to thee:: 3
+to catch: 2
+the strength: 2
+thou wouldst: 2
+my comfort: 2
+and is: 2
+worst of: 2
+and mine: 2
+I all: 2
+if it: 4
+every fair: 2
+I think: 5
+where your: 2
+art as: 3
+make my: 2
+my self: 7
+my heart;: 3
+be most: 2
+the sweet: 2
+this world: 2
+thee how: 3
+youth in: 2
+my thoughts: 2
+me when: 2
+sick of: 3
+My heart: 2
+when she: 2
+my mistress': 4
+be a: 4
+will in: 2
+every one,: 2
+as your: 2
+to a: 2
+not be: 6
+as fast: 2
+is his: 3
+with the: 7
+lines of: 2
+in me: 5
+Though in: 2
+far from: 3
+thing they: 2
+How far: 2
+my love's: 6
+oft as: 2
+taught it: 2
+prey of: 2
+back again,: 2
+thorns, and: 2
+Thou art: 6
+of beauty: 3
+despite of: 2
+to be: 15
+me in: 3
+thee for: 2
+know what: 2
+and most: 2
+that I: 21
+mine is: 3
+night doth: 2
+my love,: 10
+not so: 6
+my Muse,: 2
+of you,: 4
+good report.: 2
+belov'd of: 2
+thy self: 11
+the world's: 4
+than my: 3
+and no: 2
+should my: 2
+if not: 2
+Then can: 3
+thy love: 5
+full of: 3
+to his: 9
+like a: 9
+I was: 5
+And beauty: 2
+doth my: 2
+mine, mine: 2
+may be: 4
+fears to: 2
+times of: 2
+the stars: 2
+have thy: 2
+my poor: 4
+thou shouldst: 4
+eyes have: 3
+I am,: 2
+And my: 4
+my breast,: 2
+which he: 3
+that we: 2
+To this: 2
+my five: 2
+think on: 3
+in hue,: 2
+thy hand,: 2
+more delight: 2
+But you: 2
+That I: 7
+yet thou: 2
+that he: 2
+pent in: 2
+thou my: 2
+he is: 2
+is as: 4
+in our: 2
+by thy: 9
+if thou: 8
+love may: 2
+that doth: 3
+love to: 8
+but by: 2
+such sort,: 2
+the time: 5
+I be: 2
+I can: 2
+That to: 2
+What merit: 2
+their birth,: 2
+do I: 12
+The other: 2
+to time: 2
+Yet what: 2
+eyes to: 2
+thoughts of: 2
+thou, whose: 2
+thy picture: 2
+thrice more: 2
+swear against: 2
+your fair: 2
+one, one: 2
+my mind,: 5
+of men.: 2
+expense of: 2
+myself with: 2
+'tis the: 2
+glass and: 2
+power to: 3
+If the: 2
+of that: 6
+But, for: 2
+may I: 2
+thy beauty: 7
+love hath: 2
+the truth: 2
+even so: 2
+still doth: 2
+Were it: 2
+a kind: 2
+your true: 3
+of sweet: 2
+let your: 2
+an end,: 2
+self thou: 3
+that is: 6
+To show: 2
+at a: 2
+have I: 10
+what in: 2
+How many: 3
+live your: 2
+where is: 3
+And with: 2
+he will: 2
+from thy: 5
+the thing: 4
+parts of: 2
+a thousand: 2
+and therein: 2
+that sweet: 3
+me that: 2
+with thee: 4
+Thy looks: 2
+I that: 2
+sweet love: 3
+in them: 2
+my true: 3
+made of: 2
+no more: 4
+should be: 2
+When in: 5
+in hope,: 2
+how thy: 3
+is to: 2
+Mark how: 2
+with all: 3
+conceit of: 3
+what the: 2
+see his: 2
+my friend: 4
+thee is: 2
+long as: 3
+thinking on: 2
+in these: 3
+my good: 2
+from their: 2
+true love: 4
+for myself,: 2
+But wherefore: 2
+eye is: 4
+that time: 3
+soon to: 2
+thee, as: 2
+O! what: 3
+I should: 4
+the clock: 2
+my brain: 2
+by ill: 2
+eyes of: 2
+will be: 6
+For I: 6
+stol'n from: 2
+form of: 2
+When most: 2
+not so;: 3
+see what: 2
+love, and: 3
+thee in: 4
+'I hate',: 2
+teach thee: 2
+self in: 3
+in some: 2
+to whom: 4
+need I: 2
+in my: 26
+I cannot: 2
+Being your: 2
+canst not: 4
+in this: 7
+you with: 3
+be so: 3
+world may: 2
+needs no: 2
+life, and: 2
+as mine: 2
+thee to: 5
+should look: 2
+as the: 8
+the old: 2
+this shall: 2
+of a: 8
+are nothing: 2
+When to: 2
+thy sweet: 11
+if I: 3
+But now: 2
+Or, if: 4
+nor no: 2
+do but: 2
+what they: 4
+him with: 2
+And the: 3
+not thy: 4
+thine eye,: 3
+am I: 3
+My love: 4
+all these,: 2
+let my: 3
+that to: 2
+doth use: 2
+you do: 2
+I not: 9
+with golden: 2
+thou this: 2
+my way,: 2
+what a: 3
+and praises: 2
+And your: 2
+thee I: 5
+art thou: 2
+you to: 3
+more than: 4
+thy heart: 3
+it be: 3
+beauty being: 2
+that mine: 2
+dost thou: 8
+of love: 4
+all that: 2
+thou see'st: 2
+will, thy: 2
+best of: 2
+I my: 2
+can I: 5
+Or else: 2
+thou wilt: 5
+thou thy: 4
+up his: 2
+thy defect,: 2
+like the: 3
+O! let: 4
+the dead,: 2
+the world: 13
+which is: 3
+thou wilt;: 2
+to say: 2
+my pain.: 2
+own worth: 2
+love of: 4
+in all: 2
+If thy: 3
+But that: 6
+all thy: 6
+spirit of: 2
+well of: 2
+say that: 2
+thee all: 2
+me, do: 2
+Nor dare: 2
+a better: 2
+not for: 3
+star that: 2
+love, thy: 2
+must be,: 2
+gives thee: 2
+wide world: 2
+doth live,: 2
+If thou: 5
+rich in: 3
+beauty, and: 2
+to have: 4
+is no: 3
+in her: 4
+and thou: 2
+thy beauty's: 3
+from thee.: 2
+is this,: 2
+All this: 2
+the day,: 2
+have seen: 4
+all things: 2
+it doth: 3
+you did: 3
+show my: 2
+but for: 2
+but one,: 2
+in thine: 2
+he can: 2
+to this: 4
+Mine own: 2
+To the: 2
+as fair: 2
+So should: 3
+thy fair: 5
+earth and: 2
+and therefore: 2
+no sooner: 2
+Making a: 2
+To thy: 2
+of your: 13
+Against the: 2
+or thy: 2
+upon thy: 3
+So are: 2
+and make: 2
+Which in: 3
+all their: 2
+upon that: 2
+in a: 5
+That thou: 6
+day by: 3
+own desert,: 2
+say, mine: 2
+my body: 3
+replete with: 2
+in this,: 3
+of the: 18
+love and: 4
+That due: 2
+fast as: 3
+I shall: 2
+And nothing: 2
+is so: 5
+me I: 2
+against the: 3
+Upon the: 2
+thou upon: 2
+they see: 3
+a woman: 3
+by all: 2
+every vulgar: 2
+in thee,: 2
+For all: 3
+all ill: 2
+if he: 2
+are but: 2
+kind, and: 3
+and for: 2
+to you,: 2
+didst thou: 2
+first your: 2
+I grant: 2
+not love: 4
+what it: 3
+time and: 2
+of thee: 6
+this my: 2
+friend and: 2
+should do: 2
+should I: 3
+when thou: 7
+my heart,: 2
+should he: 2
+was I: 2
+If it: 3
+might I: 2
+me but: 2
+in you: 2
+to die,: 2
+It is: 3
+upon my: 3
+my love: 20
+Therefore my: 2
+in it: 2
+be it: 3
+Why should: 4
+Whilst I: 2
+on thee,: 6
+every where.: 3
+with your: 2
+thou, my: 3
+from thee,: 2
+For it: 2
+And do: 3
+of you: 2
+scythe and: 2
+though they: 3
+me than: 2
+with mine: 2
+thine own: 4
+thee are: 2
+would have: 2
+ten times: 4
+no man: 2
+must not: 2
+which makes: 2
+think the: 2
+you alone,: 2
+the very: 5
+will I: 2
+thou be: 4
+I could: 2
+a sad: 2
+art the: 2
+that beauty: 2
+thou art: 20
+what is: 5
+to thee,: 5
+but a: 2
+the world,: 2
+have no: 4
+from your: 2
+to your: 3
+live no: 2
+all those: 2
+at your: 2
+But thou: 4
+that so: 2
+upon this: 2
+I swear: 2
+for love,: 3
+to that: 2
+glass will: 2
+and this: 4
+from thee: 3
+eyes are: 2
+that time,: 2
+I found,: 2
+are you: 3
+in the: 27
+time do: 3
+And given: 2
+And yet: 6
+In things: 2
+it was: 2
+be thy: 5
+and thine: 2
+and I: 8
+Kill me: 2
+my sight,: 2
+own sweet: 3
+thy worst: 3
+the treasure: 3
+to thee: 6
+I see: 6
+me not: 3
+thy dear: 3
+show thee: 2
+to mine: 2
+with their: 2
+that you: 3
+thy soul: 2
+and his: 2
+I lose: 3
+But when: 6
+my name: 3
+that my: 5
+the time,: 3
+was not: 2
+am not: 2
+in your: 7
+full with: 2
+And thou: 3
+as a: 6
+As I: 2
+with beauty: 2
+can be: 2
+Love's eye: 2
+But since: 3
+with gentle: 2
+Some say: 2
+being mine,: 2
+which now: 3
+first I: 2
+when my: 2
+were but: 2
+To me: 2
+is of: 2
+it to: 2
+what I: 3
+such a: 6
+your love: 2
+never can: 2
+doth cover: 2
+you should: 2
+why dost: 3
+treasure of: 3
+tongues to: 2
+And every: 3
+will not: 4
+live in: 4
+their fair: 2
+for a: 5
+My most: 2
+and yet: 2
+With my: 2
+therefore to: 3
+lives in: 2
+my brow;: 2
+this huge: 2
+thus to: 2
+Than when: 2
+You are: 2
+tells the: 2
+now is: 2
+make me: 6
+my verse: 9
+thy show,: 2
+I have: 19
+For then: 2
+But why: 2
+is bent: 2
+give thee: 2
+is not: 9
+And therefore: 5
+far I: 2
+So then: 2
+the wide: 3
+youth and: 2
+love, to: 4
+how to: 2
+think that: 2
+I am: 22
+at the: 4
+you are: 2
+why should: 2
+to myself: 2
+with me: 3
+And all: 8
+world will: 2
+And I: 4
+is a: 3
+as you: 3
+When I: 14
+I in: 7
+O, no!: 2
+nor the: 5
+by day: 2
+days are: 2
+where they: 2
+of things: 2
+when I: 8
+and me: 2
+then my: 5
+your beauty: 2
+when it: 4
+Love's fire: 2
+thou lov'st: 3
+is most: 2
+knows it: 2
+I haste: 2
+thou being: 2
+and they: 3
+no old: 2
+your own: 2
+there is: 2
+Speak of: 2
+I may: 6
+of many,: 2
+hath in: 2
+And having: 2
+my will: 3
+So I,: 2
+whom thou: 2
+So long: 3
+and she: 2
+let me: 3
+I say,: 2
+Thou mayst: 2
+than thy: 2
+But if: 4
+and in: 6
+How like: 2
+I might: 2
+in love: 2
+this I: 2
+which it: 4
+of time;: 2
+When that: 3
+the summer: 2
+so much: 3
+on me: 3
+I do: 12
+And see: 2
+it that: 3
+the ocean: 2
+art so: 2
+which thou: 5
+As those: 3
+so foul: 2
+In the: 2
+yet to: 2
+Which shall: 2
+all to: 2
+self thy: 3
+so fair: 2
+he that: 2
+against my: 2
+for that: 3
+cause of: 2
+For nothing: 2
+by the: 5
+far more: 2
+I send: 2
+of this: 9
+If I: 3
+and lovely: 3
+even to: 2
+against myself: 2
+be the: 4
+eye hath: 3
+thou shalt: 6
+mine eye: 10
+love you: 4
+of youth: 2
+your sweet: 6
+for myself: 2
+me love: 2
+thine, and: 2
+sum of: 2
+slave to: 2
+to come,: 2
+let that: 2
+black night: 2
+may not: 3
+up in: 2
+And so: 4
+So thou,: 2
+of my: 19
+my thought,: 2
+But day: 2
+If my: 2
+in that: 5
+my days: 2
+in every: 3
+on his: 2
+a poet's: 2
+The earth: 2
+thy 'Will,': 2
+make you: 2
+it thy: 2
+is my: 12
+eyes can: 2
+myself I: 2
+all his: 3
+thou not: 3
+That on: 2
+she is: 2
+mistress' eyes: 2
+Nay, if: 2
+And they: 2
+shall I: 5
+can my: 2
+dear love: 4
+where all: 2
+many a: 4
+from my: 6
+mine own: 11
+he live,: 2
+To give: 2
+thou mayst: 6
+And by: 4
+For that: 4
+of life: 2
+shall be: 5
+my head: 2
+tongue that: 3
+how I: 2
+part of: 3
+hath her: 2
+shall not: 3
+me to: 5
+For as: 2
+the worst: 2
+fear of: 2
+than thou: 3
+sworn thee: 2
+my friend's: 2
+when first: 2
+all in: 3
+and true,: 2
+Past reason: 2
+that which: 19
+And in: 11
+thou hast: 7
+so strong: 2
+of many: 3
+by a: 3
+still with: 3
+my use: 2
+I, my: 2
+could not: 2
+in such: 2
+turn back: 2
+thy will,: 3
+my nature: 2
+to show: 4
+know thy: 2
+on thy: 6
+thou know'st: 4
+But then: 2
+that keeps: 2
+burthen of: 2
+strength of: 2
+Or who: 2
+for this: 2
+of thine: 4
+me be: 2
+out thee,: 2
+And that: 7
+come and: 2
+they in: 2
+proud of: 2
+your praise: 2
+For thou: 3
+with thy: 6
+not to: 12
+for fear: 2
+all alone: 2
+So all: 2
+see the: 2
+foul a: 2
+beauty of: 4
+I must: 4
+you were: 6
+better angel: 2
+with my: 9
+where thou: 5
+in heaven's: 2
+in his: 5
+in me,: 4
+Of their: 2
+put on: 2
+hawks and: 2
+you look: 2
+being made: 2
+a joy: 2
+what beauty: 2
+benefit of: 2
+stars in: 2
+To find: 2
+I never: 4
+this, and: 3
+to be,: 3
+to me: 6
+all my: 13
+but one: 2
+still the: 2
+then thou: 2
+art, and: 3
+sweet self: 5
+O! that: 3
+To leave: 2
+Some in: 3
+To be: 3
+of her: 3
+hath my: 5
+I by: 3
+and love: 2
+would be: 2
+my sin,: 2
+if you: 2
+love as: 2
+praise to: 2
+so as: 2
+before have: 2
+but with: 3
+that tells: 2
+him as: 2
+that in: 3
+That every: 2
+To what: 2
+own hand: 2
+had stol'n: 3
+hast thou: 4
+in one,: 2
+him that: 3
+heart that: 2
+O! lest: 2
+not enough: 2
+your self: 3
+to decay,: 3
+account of: 2
+love thee: 5
+Thou dost: 2
+with that: 4
+the spring,: 3
+When thou: 4
+be gone,: 2
+which doth: 2
+men's eyes: 3
+false in: 2
+for her: 2
+and see: 2
+buds of: 2
+More than: 2
+better part: 2
+are not: 3
+and heart: 3
+thy sight;: 2
+and thy: 4
+And for: 8
+wish I: 2
+or my: 2
+with thee,: 2
+That in: 3
+of his: 4
+love I: 3
+So far: 2
+I know: 4
+And keep: 2
+the beauty: 3
+those that: 2
+of me: 2
+all the: 10
+and thee: 2
+yet the: 2
+so my: 2
+in him: 2
+enough to: 2
+And make: 3
+in me.: 2
+Was it: 2
+Thy self: 3
+that your: 3
+by night: 3
+look into: 2
+it is: 8
+For if: 2
+with too: 2
+in one: 2
+for me: 4
+which I: 5
+and more: 2
+O! how: 5
+the shore,: 2
+not then: 2
+to all: 2
+A woman's: 2
+to be.: 3
+Which I: 2
+kind of: 2
+hath no: 2
+How can: 4
+did I: 3
+I would: 2
+this thy: 3
+Look in: 2
+shames and: 2
+heart to: 2
+but what: 2
+thy power: 2
+best is: 3
+make him: 2
+I hold: 2
+to torture: 2
+thou steal: 2
+The basest: 2
+thou grow'st,: 2
+all too: 3
+eye and: 2
+Upon thy: 3
+When you: 2
+be my: 2
+thy worth: 4
+into my: 2
+of mine: 3
+and by: 2
+play the: 3
+on the: 10
+and straight: 2
+love, that: 2
+art all: 2
+child of: 3
+more strong,: 2
+Against that: 3
+dear friend,: 2
+again, and: 2
+well knows: 2
+like to: 2
+of thy: 21
+to give: 2
+do thy: 3
+of their: 5
+the other: 2
+172-16-226-133:Hw8_MarkovNgrams staff$ ls\
+> > 
+EXcount_word_pairs.py	EXngramcount.py		frost.txt		sea_rose.txt		sonnets.txt		word_pairs.py
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXgramcount.py < frost.txt
+python: can't open file 'EXgramcount.py': [Errno 2] No such file or directory
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py < frost.txt
+Traceback (most recent call last):
+  File "EXngramcount.py", line 21, in <module>
+    if _name_ == '_main_':
+NameError: name '_name_' is not defined
+172-16-226-133:Hw8_MarkovNgrams staff$ python EX.py < frost.txt
+Traceback (most recent call last):
+  File "EX.py", line 27, in <module>
+    n = int(sys.argv[1])
+IndexError: list index out of range
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py < frost.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py < frost.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py < frost.txt > example.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ cat example.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py < frost.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<sea_rose.txt
+you are: 3
+in the: 3
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py < frost.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<frost.txt
+roads diverged: 2
+took the: 2
+diverged in: 2
+Two roads: 2
+I could: 2
+in a: 2
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXcount_word_pairs.py<sonnets.txt
+you have: 3
+shalt find: 3
+born of: 2
+as thou: 6
+and that: 2
+by this: 2
+thee that: 4
+love is: 5
+And like: 2
+So shall: 3
+the fairest: 2
+and he: 3
+no form: 2
+too much: 4
+love, be: 2
+conquest of: 2
+must be: 2
+thou hadst: 2
+life on: 2
+Thou canst: 3
+Or as: 2
+breast doth: 2
+is but: 2
+do not: 11
+by that: 2
+despite thy: 2
+is best,: 2
+thy love,: 5
+'Fair, kind,: 2
+spite of: 2
+my judgment: 2
+thy sins: 3
+farther than: 2
+deeds to: 2
+That they: 2
+it were,: 2
+my life: 4
+And summer's: 2
+mine eyes: 3
+as mine,: 2
+being full: 2
+thy breast: 2
+love in: 2
+which flies: 2
+is it: 2
+are in: 2
+never saw: 2
+the judgment: 2
+to my: 14
+shall in: 2
+haste me: 2
+is thine,: 3
+love doth: 3
+Do I: 2
+self dost: 2
+So is: 3
+The world: 2
+you in: 3
+subject to: 2
+said I: 2
+I saw: 2
+thou in: 3
+not my: 3
+that love: 2
+Mine eye: 4
+Of his: 2
+barren of: 2
+all, or: 3
+That did: 2
+And then: 2
+That she: 3
+in love,: 4
+So that: 2
+not from: 2
+time that: 2
+life to: 2
+I to: 2
+what shall: 2
+mine eyes,: 3
+thou the: 2
+make them: 2
+though I: 4
+they with: 2
+mourn for: 2
+Which should: 2
+My tongue-tied: 2
+As any: 2
+a former: 2
+with me,: 2
+eye doth: 3
+it not: 4
+For thy: 3
+no longer: 2
+thy good: 2
+and the: 2
+to tell: 2
+by and: 2
+beauty shall: 2
+that bears: 2
+eye of: 2
+doth lie,: 2
+his beauty: 3
+So thou: 3
+then I: 2
+is the: 5
+life hath: 2
+That you: 5
+that the: 4
+out of: 3
+one of: 2
+by his: 2
+of true: 2
+is in: 5
+she hath: 2
+for their: 4
+love, my: 2
+of thine,: 2
+of such: 5
+the painter: 2
+know'st I: 2
+of hearts: 2
+the grave: 2
+change my: 2
+mayst thou: 2
+Nor can: 2
+For thee,: 2
+in thee: 10
+my sake: 4
+love that: 5
+absent from: 2
+glass shows: 2
+of love,: 3
+when they: 2
+his own: 2
+Or whether: 3
+Which for: 2
+hath not: 3
+and all: 5
+tell my: 2
+the eye: 3
+me for: 3
+but in: 4
+And found: 2
+and true,': 2
+more praise: 2
+to each: 2
+thou that: 2
+doth beauty: 2
+doth thy: 2
+Whilst I,: 2
+some in: 3
+worst to: 2
+And you: 5
+but the: 2
+and look: 3
+the day: 2
+I dare: 2
+I will: 8
+when from: 2
+to love: 2
+Which, like: 2
+me thou: 4
+bright in: 2
+make the: 4
+my heart: 13
+thy glass: 2
+But as: 2
+but not: 2
+love was: 2
+That it: 2
+this powerful: 2
+have sworn: 3
+his scythe: 2
+yet I: 3
+as an: 2
+it hath: 2
+not with: 5
+love shall: 2
+to the: 22
+thy outward: 2
+my purpose: 2
+my heart's: 2
+Without all: 2
+and thee.: 2
+When all: 2
+and my: 4
+Within the: 2
+hath his: 2
+to thy: 6
+And to: 7
+in their: 14
+As fast: 2
+as thy: 3
+as my: 2
+which yet: 2
+thy heart,: 4
+To make: 6
+wilt thou: 2
+thee my: 2
+that she: 2
+I love: 10
+the sun: 2
+becoming of: 2
+the best,: 2
+to make: 6
+of state,: 2
+of all: 7
+no such: 2
+thee thy: 2
+simple truth: 2
+of heaven: 2
+not the: 5
+with thine: 3
+thou wilt,: 2
+dare I: 2
+I bring: 2
+Love is: 4
+world should: 2
+as I: 2
+on my: 6
+that makes: 2
+that thou: 12
+I return: 2
+to me,: 5
+and then: 2
+should that: 2
+I question: 2
+In me: 2
+for love: 3
+world is: 2
+No longer: 2
+earth can: 2
+through the: 2
+Take all: 2
+in thy: 19
+that tongue: 2
+They are: 2
+For to: 2
+tell the: 2
+Let me: 3
+if they: 3
+But do: 3
+you shall: 2
+I then: 3
+look upon: 2
+with a: 5
+upon your: 2
+where you: 2
+my deeds: 3
+thine eyes: 3
+thou art,: 5
+that said: 2
+with you,: 2
+to Time's: 2
+much more: 2
+yet, love: 2
+holds her: 2
+me with: 4
+Let those: 2
+which thy: 2
+for the: 3
+Look! what: 2
+by their: 2
+a mortal: 2
+with his: 7
+is thy: 4
+own love's: 2
+Yet this: 3
+my dear: 3
+for thy: 6
+for my: 16
+say thy: 2
+which the: 2
+Dost thou: 2
+As the: 2
+As thou: 2
+from the: 8
+the better: 2
+now my: 2
+and beauty: 2
+The one: 2
+The humble: 2
+All men: 2
+myself, and: 2
+see'st the: 2
+the breath: 2
+from me: 2
+That is: 3
+short a: 2
+with this: 3
+my best: 3
+of more: 2
+thou dost: 10
+good turns: 2
+more bright: 2
+he takes: 2
+now I: 3
+and to: 3
+heart in: 3
+for his: 3
+Is it: 3
+to thee:: 3
+to catch: 2
+the strength: 2
+thou wouldst: 2
+my comfort: 2
+and is: 2
+worst of: 2
+and mine: 2
+I all: 2
+if it: 4
+every fair: 2
+I think: 5
+where your: 2
+art as: 3
+make my: 2
+my self: 7
+my heart;: 3
+be most: 2
+the sweet: 2
+this world: 2
+thee how: 3
+youth in: 2
+my thoughts: 2
+me when: 2
+sick of: 3
+My heart: 2
+when she: 2
+my mistress': 4
+be a: 4
+will in: 2
+every one,: 2
+as your: 2
+to a: 2
+not be: 6
+as fast: 2
+is his: 3
+with the: 7
+lines of: 2
+in me: 5
+Though in: 2
+far from: 3
+thing they: 2
+How far: 2
+my love's: 6
+oft as: 2
+taught it: 2
+prey of: 2
+back again,: 2
+thorns, and: 2
+Thou art: 6
+of beauty: 3
+despite of: 2
+to be: 15
+me in: 3
+thee for: 2
+know what: 2
+and most: 2
+that I: 21
+mine is: 3
+night doth: 2
+my love,: 10
+not so: 6
+my Muse,: 2
+of you,: 4
+good report.: 2
+belov'd of: 2
+thy self: 11
+the world's: 4
+than my: 3
+and no: 2
+should my: 2
+if not: 2
+Then can: 3
+thy love: 5
+full of: 3
+to his: 9
+like a: 9
+I was: 5
+And beauty: 2
+doth my: 2
+mine, mine: 2
+may be: 4
+fears to: 2
+times of: 2
+the stars: 2
+have thy: 2
+my poor: 4
+thou shouldst: 4
+eyes have: 3
+I am,: 2
+And my: 4
+my breast,: 2
+which he: 3
+that we: 2
+To this: 2
+my five: 2
+think on: 3
+in hue,: 2
+thy hand,: 2
+more delight: 2
+But you: 2
+That I: 7
+yet thou: 2
+that he: 2
+pent in: 2
+thou my: 2
+he is: 2
+is as: 4
+in our: 2
+by thy: 9
+if thou: 8
+love may: 2
+that doth: 3
+love to: 8
+but by: 2
+such sort,: 2
+the time: 5
+I be: 2
+I can: 2
+That to: 2
+What merit: 2
+their birth,: 2
+do I: 12
+The other: 2
+to time: 2
+Yet what: 2
+eyes to: 2
+thoughts of: 2
+thou, whose: 2
+thy picture: 2
+thrice more: 2
+swear against: 2
+your fair: 2
+one, one: 2
+my mind,: 5
+of men.: 2
+expense of: 2
+myself with: 2
+'tis the: 2
+glass and: 2
+power to: 3
+If the: 2
+of that: 6
+But, for: 2
+may I: 2
+thy beauty: 7
+love hath: 2
+the truth: 2
+even so: 2
+still doth: 2
+Were it: 2
+a kind: 2
+your true: 3
+of sweet: 2
+let your: 2
+an end,: 2
+self thou: 3
+that is: 6
+To show: 2
+at a: 2
+have I: 10
+what in: 2
+How many: 3
+live your: 2
+where is: 3
+And with: 2
+he will: 2
+from thy: 5
+the thing: 4
+parts of: 2
+a thousand: 2
+and therein: 2
+that sweet: 3
+me that: 2
+with thee: 4
+Thy looks: 2
+I that: 2
+sweet love: 3
+in them: 2
+my true: 3
+made of: 2
+no more: 4
+should be: 2
+When in: 5
+in hope,: 2
+how thy: 3
+is to: 2
+Mark how: 2
+with all: 3
+conceit of: 3
+what the: 2
+see his: 2
+my friend: 4
+thee is: 2
+long as: 3
+thinking on: 2
+in these: 3
+my good: 2
+from their: 2
+true love: 4
+for myself,: 2
+But wherefore: 2
+eye is: 4
+that time: 3
+soon to: 2
+thee, as: 2
+O! what: 3
+I should: 4
+the clock: 2
+my brain: 2
+by ill: 2
+eyes of: 2
+will be: 6
+For I: 6
+stol'n from: 2
+form of: 2
+When most: 2
+not so;: 3
+see what: 2
+love, and: 3
+thee in: 4
+'I hate',: 2
+teach thee: 2
+self in: 3
+in some: 2
+to whom: 4
+need I: 2
+in my: 26
+I cannot: 2
+Being your: 2
+canst not: 4
+in this: 7
+you with: 3
+be so: 3
+world may: 2
+needs no: 2
+life, and: 2
+as mine: 2
+thee to: 5
+should look: 2
+as the: 8
+the old: 2
+this shall: 2
+of a: 8
+are nothing: 2
+When to: 2
+thy sweet: 11
+if I: 3
+But now: 2
+Or, if: 4
+nor no: 2
+do but: 2
+what they: 4
+him with: 2
+And the: 3
+not thy: 4
+thine eye,: 3
+am I: 3
+My love: 4
+all these,: 2
+let my: 3
+that to: 2
+doth use: 2
+you do: 2
+I not: 9
+with golden: 2
+thou this: 2
+my way,: 2
+what a: 3
+and praises: 2
+And your: 2
+thee I: 5
+art thou: 2
+you to: 3
+more than: 4
+thy heart: 3
+it be: 3
+beauty being: 2
+that mine: 2
+dost thou: 8
+of love: 4
+all that: 2
+thou see'st: 2
+will, thy: 2
+best of: 2
+I my: 2
+can I: 5
+Or else: 2
+thou wilt: 5
+thou thy: 4
+up his: 2
+thy defect,: 2
+like the: 3
+O! let: 4
+the dead,: 2
+the world: 13
+which is: 3
+thou wilt;: 2
+to say: 2
+my pain.: 2
+own worth: 2
+love of: 4
+in all: 2
+If thy: 3
+But that: 6
+all thy: 6
+spirit of: 2
+well of: 2
+say that: 2
+thee all: 2
+me, do: 2
+Nor dare: 2
+a better: 2
+not for: 3
+star that: 2
+love, thy: 2
+must be,: 2
+gives thee: 2
+wide world: 2
+doth live,: 2
+If thou: 5
+rich in: 3
+beauty, and: 2
+to have: 4
+is no: 3
+in her: 4
+and thou: 2
+thy beauty's: 3
+from thee.: 2
+is this,: 2
+All this: 2
+the day,: 2
+have seen: 4
+all things: 2
+it doth: 3
+you did: 3
+show my: 2
+but for: 2
+but one,: 2
+in thine: 2
+he can: 2
+to this: 4
+Mine own: 2
+To the: 2
+as fair: 2
+So should: 3
+thy fair: 5
+earth and: 2
+and therefore: 2
+no sooner: 2
+Making a: 2
+To thy: 2
+of your: 13
+Against the: 2
+or thy: 2
+upon thy: 3
+So are: 2
+and make: 2
+Which in: 3
+all their: 2
+upon that: 2
+in a: 5
+That thou: 6
+day by: 3
+own desert,: 2
+say, mine: 2
+my body: 3
+replete with: 2
+in this,: 3
+of the: 18
+love and: 4
+That due: 2
+fast as: 3
+I shall: 2
+And nothing: 2
+is so: 5
+me I: 2
+against the: 3
+Upon the: 2
+thou upon: 2
+they see: 3
+a woman: 3
+by all: 2
+every vulgar: 2
+in thee,: 2
+For all: 3
+all ill: 2
+if he: 2
+are but: 2
+kind, and: 3
+and for: 2
+to you,: 2
+didst thou: 2
+first your: 2
+I grant: 2
+not love: 4
+what it: 3
+time and: 2
+of thee: 6
+this my: 2
+friend and: 2
+should do: 2
+should I: 3
+when thou: 7
+my heart,: 2
+should he: 2
+was I: 2
+If it: 3
+might I: 2
+me but: 2
+in you: 2
+to die,: 2
+It is: 3
+upon my: 3
+my love: 20
+Therefore my: 2
+in it: 2
+be it: 3
+Why should: 4
+Whilst I: 2
+on thee,: 6
+every where.: 3
+with your: 2
+thou, my: 3
+from thee,: 2
+For it: 2
+And do: 3
+of you: 2
+scythe and: 2
+though they: 3
+me than: 2
+with mine: 2
+thine own: 4
+thee are: 2
+would have: 2
+ten times: 4
+no man: 2
+must not: 2
+which makes: 2
+think the: 2
+you alone,: 2
+the very: 5
+will I: 2
+thou be: 4
+I could: 2
+a sad: 2
+art the: 2
+that beauty: 2
+thou art: 20
+what is: 5
+to thee,: 5
+but a: 2
+the world,: 2
+have no: 4
+from your: 2
+to your: 3
+live no: 2
+all those: 2
+at your: 2
+But thou: 4
+that so: 2
+upon this: 2
+I swear: 2
+for love,: 3
+to that: 2
+glass will: 2
+and this: 4
+from thee: 3
+eyes are: 2
+that time,: 2
+I found,: 2
+are you: 3
+in the: 27
+time do: 3
+And given: 2
+And yet: 6
+In things: 2
+it was: 2
+be thy: 5
+and thine: 2
+and I: 8
+Kill me: 2
+my sight,: 2
+own sweet: 3
+thy worst: 3
+the treasure: 3
+to thee: 6
+I see: 6
+me not: 3
+thy dear: 3
+show thee: 2
+to mine: 2
+with their: 2
+that you: 3
+thy soul: 2
+and his: 2
+I lose: 3
+But when: 6
+my name: 3
+that my: 5
+the time,: 3
+was not: 2
+am not: 2
+in your: 7
+full with: 2
+And thou: 3
+as a: 6
+As I: 2
+with beauty: 2
+can be: 2
+Love's eye: 2
+But since: 3
+with gentle: 2
+Some say: 2
+being mine,: 2
+which now: 3
+first I: 2
+when my: 2
+were but: 2
+To me: 2
+is of: 2
+it to: 2
+what I: 3
+such a: 6
+your love: 2
+never can: 2
+doth cover: 2
+you should: 2
+why dost: 3
+treasure of: 3
+tongues to: 2
+And every: 3
+will not: 4
+live in: 4
+their fair: 2
+for a: 5
+My most: 2
+and yet: 2
+With my: 2
+therefore to: 3
+lives in: 2
+my brow;: 2
+this huge: 2
+thus to: 2
+Than when: 2
+You are: 2
+tells the: 2
+now is: 2
+make me: 6
+my verse: 9
+thy show,: 2
+I have: 19
+For then: 2
+But why: 2
+is bent: 2
+give thee: 2
+is not: 9
+And therefore: 5
+far I: 2
+So then: 2
+the wide: 3
+youth and: 2
+love, to: 4
+how to: 2
+think that: 2
+I am: 22
+at the: 4
+you are: 2
+why should: 2
+to myself: 2
+with me: 3
+And all: 8
+world will: 2
+And I: 4
+is a: 3
+as you: 3
+When I: 14
+I in: 7
+O, no!: 2
+nor the: 5
+by day: 2
+days are: 2
+where they: 2
+of things: 2
+when I: 8
+and me: 2
+then my: 5
+your beauty: 2
+when it: 4
+Love's fire: 2
+thou lov'st: 3
+is most: 2
+knows it: 2
+I haste: 2
+thou being: 2
+and they: 3
+no old: 2
+your own: 2
+there is: 2
+Speak of: 2
+I may: 6
+of many,: 2
+hath in: 2
+And having: 2
+my will: 3
+So I,: 2
+whom thou: 2
+So long: 3
+and she: 2
+let me: 3
+I say,: 2
+Thou mayst: 2
+than thy: 2
+But if: 4
+and in: 6
+How like: 2
+I might: 2
+in love: 2
+this I: 2
+which it: 4
+of time;: 2
+When that: 3
+the summer: 2
+so much: 3
+on me: 3
+I do: 12
+And see: 2
+it that: 3
+the ocean: 2
+art so: 2
+which thou: 5
+As those: 3
+so foul: 2
+In the: 2
+yet to: 2
+Which shall: 2
+all to: 2
+self thy: 3
+so fair: 2
+he that: 2
+against my: 2
+for that: 3
+cause of: 2
+For nothing: 2
+by the: 5
+far more: 2
+I send: 2
+of this: 9
+If I: 3
+and lovely: 3
+even to: 2
+against myself: 2
+be the: 4
+eye hath: 3
+thou shalt: 6
+mine eye: 10
+love you: 4
+of youth: 2
+your sweet: 6
+for myself: 2
+me love: 2
+thine, and: 2
+sum of: 2
+slave to: 2
+to come,: 2
+let that: 2
+black night: 2
+may not: 3
+up in: 2
+And so: 4
+So thou,: 2
+of my: 19
+my thought,: 2
+But day: 2
+If my: 2
+in that: 5
+my days: 2
+in every: 3
+on his: 2
+a poet's: 2
+The earth: 2
+thy 'Will,': 2
+make you: 2
+it thy: 2
+is my: 12
+eyes can: 2
+myself I: 2
+all his: 3
+thou not: 3
+That on: 2
+she is: 2
+mistress' eyes: 2
+Nay, if: 2
+And they: 2
+shall I: 5
+can my: 2
+dear love: 4
+where all: 2
+many a: 4
+from my: 6
+mine own: 11
+he live,: 2
+To give: 2
+thou mayst: 6
+And by: 4
+For that: 4
+of life: 2
+shall be: 5
+my head: 2
+tongue that: 3
+how I: 2
+part of: 3
+hath her: 2
+shall not: 3
+me to: 5
+For as: 2
+the worst: 2
+fear of: 2
+than thou: 3
+sworn thee: 2
+my friend's: 2
+when first: 2
+all in: 3
+and true,: 2
+Past reason: 2
+that which: 19
+And in: 11
+thou hast: 7
+so strong: 2
+of many: 3
+by a: 3
+still with: 3
+my use: 2
+I, my: 2
+could not: 2
+in such: 2
+turn back: 2
+thy will,: 3
+my nature: 2
+to show: 4
+know thy: 2
+on thy: 6
+thou know'st: 4
+But then: 2
+that keeps: 2
+burthen of: 2
+strength of: 2
+Or who: 2
+for this: 2
+of thine: 4
+me be: 2
+out thee,: 2
+And that: 7
+come and: 2
+they in: 2
+proud of: 2
+your praise: 2
+For thou: 3
+with thy: 6
+not to: 12
+for fear: 2
+all alone: 2
+So all: 2
+see the: 2
+foul a: 2
+beauty of: 4
+I must: 4
+you were: 6
+better angel: 2
+with my: 9
+where thou: 5
+in heaven's: 2
+in his: 5
+in me,: 4
+Of their: 2
+put on: 2
+hawks and: 2
+you look: 2
+being made: 2
+a joy: 2
+what beauty: 2
+benefit of: 2
+stars in: 2
+To find: 2
+I never: 4
+this, and: 3
+to be,: 3
+to me: 6
+all my: 13
+but one: 2
+still the: 2
+then thou: 2
+art, and: 3
+sweet self: 5
+O! that: 3
+To leave: 2
+Some in: 3
+To be: 3
+of her: 3
+hath my: 5
+I by: 3
+and love: 2
+would be: 2
+my sin,: 2
+if you: 2
+love as: 2
+praise to: 2
+so as: 2
+before have: 2
+but with: 3
+that tells: 2
+him as: 2
+that in: 3
+That every: 2
+To what: 2
+own hand: 2
+had stol'n: 3
+hast thou: 4
+in one,: 2
+him that: 3
+heart that: 2
+O! lest: 2
+not enough: 2
+your self: 3
+to decay,: 3
+account of: 2
+love thee: 5
+Thou dost: 2
+with that: 4
+the spring,: 3
+When thou: 4
+be gone,: 2
+which doth: 2
+men's eyes: 3
+false in: 2
+for her: 2
+and see: 2
+buds of: 2
+More than: 2
+better part: 2
+are not: 3
+and heart: 3
+thy sight;: 2
+and thy: 4
+And for: 8
+wish I: 2
+or my: 2
+with thee,: 2
+That in: 3
+of his: 4
+love I: 3
+So far: 2
+I know: 4
+And keep: 2
+the beauty: 3
+those that: 2
+of me: 2
+all the: 10
+and thee: 2
+yet the: 2
+so my: 2
+in him: 2
+enough to: 2
+And make: 3
+in me.: 2
+Was it: 2
+Thy self: 3
+that your: 3
+by night: 3
+look into: 2
+it is: 8
+For if: 2
+with too: 2
+in one: 2
+for me: 4
+which I: 5
+and more: 2
+O! how: 5
+the shore,: 2
+not then: 2
+to all: 2
+A woman's: 2
+to be.: 3
+Which I: 2
+kind of: 2
+hath no: 2
+How can: 4
+did I: 3
+I would: 2
+this thy: 3
+Look in: 2
+shames and: 2
+heart to: 2
+but what: 2
+thy power: 2
+best is: 3
+make him: 2
+I hold: 2
+to torture: 2
+thou steal: 2
+The basest: 2
+thou grow'st,: 2
+all too: 3
+eye and: 2
+Upon thy: 3
+When you: 2
+be my: 2
+thy worth: 4
+into my: 2
+of mine: 3
+and by: 2
+play the: 3
+on the: 10
+and straight: 2
+love, that: 2
+art all: 2
+child of: 3
+more strong,: 2
+Against that: 3
+dear friend,: 2
+again, and: 2
+well knows: 2
+like to: 2
+of thy: 21
+to give: 2
+do thy: 3
+of their: 5
+the other: 2
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py < sonnets.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ pyhton EX.py
+-bash: pyhton: command not found
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py < sonnets.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py
+172-16-226-133:Hw8_MarkovNgrams staff$ 
+172-16-226-133:Hw8_MarkovNgrams staff$ 
+172-16-226-133:Hw8_MarkovNgrams staff$ 
+172-16-226-133:Hw8_MarkovNgrams staff$ 
+172-16-226-133:Hw8_MarkovNgrams staff$ 
+172-16-226-133:Hw8_MarkovNgrams staff$ 
+172-16-226-133:Hw8_MarkovNgrams staff$ python EXngramcount.py
+172-16-226-133:Hw8_MarkovNgrams staff$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> dir EXngramcount.py
+  File "<stdin>", line 1
+    dir EXngramcount.py
+                   ^
+SyntaxError: invalid syntax
+>>> dir EXngramcount
+  File "<stdin>", line 1
+    dir EXngramcount
+                   ^
+SyntaxError: invalid syntax
+>>> dir(EXngramcount)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'EXngramcount' is not defined
+>>> dir(EX)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'EX' is not defined
+>>> dir(EXngramcount)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'EXngramcount' is not defined
+>>> dir(EXngramcount)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'EXngramcount' is not defined
+>>> ^D
+172-16-226-133:Hw8_MarkovNgrams staff$ python EX.py<sea_rose.txt 
+  File "EX.py", line 4
+    n = int(sys.argv[1])
+    ^
+IndentationError: unexpected indent
+172-16-226-133:Hw8_MarkovNgrams staff$ python EX.py<sea_rose.txt 
+  File "EX.py", line 4
+    n = int(sys.argv[1])
+    ^
+IndentationError: unexpected indent
+172-16-226-133:Hw8_MarkovNgrams staff$ python EX.py<sea_rose.txt 
+  File "EX.py", line 7
+    for line in sys.stdin:
+    ^
+IndentationError: unexpected indent
+172-16-226-133:Hw8_MarkovNgrams staff$ python EX.py<sea_rose.txt 
+Traceback (most recent call last):
+  File "EX.py", line 4, in <module>
+    n = int(sys.argv[1])
+IndexError: list index out of range
+172-16-226-133:Hw8_MarkovNgrams staff$ python EX.py<sea_rose.txt 
+Traceback (most recent call last):
+  File "EX.py", line 4, in <module>
+    n = int(sys.argv[1])
+IndexError: list index out of range
+172-16-226-133:Hw8_MarkovNgrams staff$ python EX.py<sea_rose.txt 
+Traceback (most recent call last):
+  File "EX.py", line 2, in <module>
+    import EXngramcount
+  File "/Users/staff/Desktop/regina/RWET/Hw8_MarkovNgrams/EXngramcount.py", line 1, in <module>
+    n = int(sys.argv[1])
+NameError: name 'sys' is not defined
+172-16-226-133:Hw8_MarkovNgrams staff$ python EX.py<sea_rose.txt 
+Traceback (most recent call last):
+  File "EX.py", line 2, in <module>
+    import EXngramcount
+  File "/Users/staff/Desktop/regina/RWET/Hw8_MarkovNgrams/EXngramcount.py", line 2, in <module>
+    n = int(sys.argv[1])
+IndexError: list index out of range
+172-16-226-133:Hw8_MarkovNgrams staff$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> dir(EXngramcount.py)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'EXngramcount' is not defined
+>>> ^D
+172-16-226-133:Hw8_MarkovNgrams staff$ git add -A
+172-16-226-133:Hw8_MarkovNgrams staff$ git commit -m "Ngram exercises"
+[master 9fbdb82] Ngram exercises
+ Committer: staff <staff@172-16-226-133.DYNAPOOL.NYU.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 13 files changed, 2455 insertions(+)
+ create mode 100644 C_Mar30/EX.py
+ create mode 100644 C_Mar30/EXcount_word_pairs.py
+ create mode 100644 C_Mar30/EXngramcount.py
+ create mode 100644 C_Mar30/EXngramcount.pyc
+ create mode 100644 C_Mar30/example.txt
+ create mode 100644 C_Mar30/frost.txt
+ create mode 100644 C_Mar30/word_pairs.py
+ create mode 100644 Hw7_functionsModules/.DS_Store
+ create mode 100644 Hw8_MarkovNgrams/.DS_Store
+ create mode 100644 plain-text-example-files/.DS_Store
+ create mode 100644 sea_rose.txt
+ create mode 100644 sonnets.txt
+172-16-226-133:Hw8_MarkovNgrams staff$ git push
+Username for 'https://github.com': rcd326@nyu.edu
+Password for 'https://rcd326@nyu.edu@github.com': 
+Counting objects: 14, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (14/14), 3.54 KiB | 0 bytes/s, done.
+Total 14 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 4 local objects.
+To https://github.com/RSofiaC/RWET.git
+   9a12903..9fbdb82  master -> master
+172-16-226-133:Hw8_MarkovNgrams staff$ git credential -osxkeychain erase
+host = github.com
+protocol = https
+
+usage: git credential [fill|approve|reject]
+172-16-226-133:Hw8_MarkovNgrams staff$ git config --global --unset user.name
+172-16-226-133:Hw8_MarkovNgrams staff$ git config --global --unset user.email
+172-16-226-133:Hw8_MarkovNgrams staff$ git credential -osxkeychain erase
+host = github.com
+protocol = https
+
+usage: git credential [fill|approve|reject]
+172-16-226-133:Hw8_MarkovNgrams staff$ 
