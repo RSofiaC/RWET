@@ -1,0 +1,369 @@
+Last login: Thu Apr  6 12:44:17 on ttys000
+172-16-253-244:~ itpstudent$ cd Desktop/regina/RWET/C_Apr6
+172-16-253-244:C_Apr6 itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from_future_import unicode_literal
+  File "<stdin>", line 1
+    from_future_import unicode_literal
+                                     ^
+SyntaxError: invalid syntax
+>>> from_future_import unicode_literals
+  File "<stdin>", line 1
+    from_future_import unicode_literals
+                                      ^
+SyntaxError: invalid syntax
+>>> from_future_import unicode_literals
+  File "<stdin>", line 1
+    from_future_import unicode_literals
+                                      ^
+SyntaxError: invalid syntax
+>>> from__future__import unicode__literals
+  File "<stdin>", line 1
+    from__future__import unicode__literals
+                                         ^
+SyntaxError: invalid syntax
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> spacy.load('en')
+<spacy.en.English object at 0x10aa0b210>
+>>> nlp = spacy.load('en')
+>>> doc = nlp("All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Everyone has the right to life, liberty and security of person.")
+>>> type(doc)
+<type 'spacy.tokens.doc.Doc'>
+>>> doc.sents
+<generator object at 0x109825270>
+>>> for item in doc.sents print item
+  File "<stdin>", line 1
+    for item in doc.sents print item
+                              ^
+SyntaxError: invalid syntax
+>>> for item in doc.sents:
+...     print item
+... 
+All human beings are born free and equal in dignity and rights.
+They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.
+Everyone has the right to life, liberty and security of person.
+>>> import random
+>>> all_sentences = list(doc.sents)
+>>> all_sentences[0]
+All human beings are born free and equal in dignity and rights.
+>>> fir item in doc:
+  File "<stdin>", line 1
+    fir item in doc:
+           ^
+SyntaxError: invalid syntax
+>>> for item in do:
+... 
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block
+>>> for item in doc:
+...     print item.text
+... 
+All
+human
+beings
+are
+born
+free
+and
+equal
+in
+dignity
+and
+rights
+.
+They
+are
+endowed
+with
+reason
+and
+conscience
+and
+should
+act
+towards
+one
+another
+in
+a
+spirit
+of
+brotherhood
+.
+Everyone
+has
+the
+right
+to
+life
+,
+liberty
+and
+security
+of
+person
+.
+>>> for item in all_sentences[3]::
+  File "<stdin>", line 1
+    for item in all_sentences[3]::
+                                 ^
+SyntaxError: invalid syntax
+>>> for item in all_sentences[3]:
+...     print item.text
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> for item in all_sentences[2]:
+...     print item.text
+... 
+Everyone
+has
+the
+right
+to
+life
+,
+liberty
+and
+security
+of
+person
+.
+>>> for item in all_sentences[2]:
+...     print item;.text, item.lemma_
+  File "<stdin>", line 2
+    print item;.text, item.lemma_
+               ^
+SyntaxError: invalid syntax
+>>> for item in all_sentences[2]:
+...     print item.text, item.lemma_
+... 
+Everyone everyone
+has have
+the the
+right right
+to to
+life life
+, ,
+liberty liberty
+and and
+security security
+of of
+person person
+. .
+>>> for item in all_sentences[2]:
+...     print item.text, item.pos_
+... 
+Everyone NOUN
+has VERB
+the DET
+right NOUN
+to ADP
+life NOUN
+, PUNCT
+liberty NOUN
+and CCONJ
+security NOUN
+of ADP
+person NOUN
+. PUNCT
+>>> nouns = []
+>>> for item in do:
+... 
+  File "<stdin>", line 2
+    
+    ^
+IndentationError: expected an indented block
+>>> nouns = []
+>>> for item in doc:
+...     if item.pos_ = 'NOUN':
+  File "<stdin>", line 2
+    if item.pos_ = 'NOUN':
+                 ^
+SyntaxError: invalid syntax
+>>> nouns = []
+>>> for item in doc:
+...     if item.pos_ == 'NOUN':
+...             nouns.append(item.text)
+... 
+>>> nouns
+[u'beings', u'dignity', u'rights', u'reason', u'conscience', u'spirit', u'brotherhood', u'Everyone', u'right', u'life', u'liberty', u'security', u'person']
+>>> adjetives = []
+>>> for item in doc:
+...     if item.pos_ == 'ADJ':
+...             adjetives.append(item.text)
+... 
+>>> print random.choice(adjetives) + " " + random.choice(nouns)
+equal brotherhood
+>>> 
+>>> print random.choice(adjetives) + " " + random.choice(nouns)
+human liberty
+>>> print random.choice(adjetives) + " " + random.choice(nouns)
+human security
+>>> print random.choice(adjetives) + " " + random.choice(nouns)
+human rights
+>>> print random.choice(adjetives) + " " + random.choice(nouns)
+human brotherhood
+>>> for item in doc:
+...     if item.pos_ = 'VERB':
+  File "<stdin>", line 2
+    if item.pos_ = 'VERB':
+                 ^
+SyntaxError: invalid syntax
+>>> for item in doc:
+...     if item.pos_ == 'VERB':
+...             verbs
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+NameError: name 'verbs' is not defined
+>>> verbs = []
+>>> for item in doc:
+...     if item.pos_ == 'VERB':
+...             verbs.append(item.text)
+... 
+>>> verb
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'verb' is not defined
+>>> verbs
+[u'are', u'born', u'are', u'endowed', u'should', u'act', u'has']
+>>> for item in all_sentences[0]:
+...     print item.text, item.tag_
+... 
+All DT
+human JJ
+beings NNS
+are VBP
+born VBN
+free JJ
+and CC
+equal JJ
+in IN
+dignity NN
+and CC
+rights NNS
+. .
+>>> # Penn Treebank
+... 
+>>> verbs = []
+>>> for item in doc:
+...     if item.tag_ == 'VBN':
+...             verbs.append(item.text)
+... 
+>>> verbs
+[u'born', u'endowed']
+>>> ^D
+172-16-253-244:C_Apr6 itpstudent$ ls
+NBA_2015_games.csv	austen.txt		genesis.txt		sea_rose.txt		sotu2012.txt		wasteland.txt
+actions.py		frost.txt		lovecraft.txt		sonnets.txt		stein.txt
+172-16-253-244:C_Apr6 itpstudent$ puthon actions.py < sotu2012
+-bash: sotu2012: No such file or directory
+172-16-253-244:C_Apr6 itpstudent$ puthon actions.py < sotu2012.txt
+-bash: puthon: command not found
+172-16-253-244:C_Apr6 itpstudent$ python actions.py < sotu2012.txt
+  File "actions.py", line 7
+    text = sys.stdin.read().decode*'utf8', 'replace')
+                                                    ^
+SyntaxError: invalid syntax
+172-16-253-244:C_Apr6 itpstudent$ python actions.py < sotu2012.txt
+And then it all started to happen
+coalitionsaregetting
+productsarelowering
+depositsarefinancing
+rulesaremaking
+countriesareproposing
+investmentsaretrying
+yearsareinvestigating
+investmentsarehiring
+industriesaremaking
+jobsareprotecting
+172-16-253-244:C_Apr6 itpstudent$ python actions.py < sotu2012.txt
+Spring came and then it all started to happen
+years were Growing
+inspections were working
+backs were enlisting
+businesses were taking
+investments were fighting
+values were enduring
+vests were making
+products were making
+billions were giving
+credits were getting
+172-16-253-244:C_Apr6 itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> doc
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'doc' is not defined
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> import random
+>>> nlp = spacy.load('en')
+>>> doc = nlp("All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Everyone has the right to life, liberty and security of person.")
+>>> doc
+All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. Everyone has the right to life, liberty and security of person.
+>>> for item in doc.noun_chunks:
+...     print item.txt
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+AttributeError: 'spacy.tokens.span.Span' object has no attribute 'txt'
+>>> for item in doc.noun_chunks:
+...     print item.text
+... 
+All human beings
+dignity
+rights
+They
+reason
+conscience
+a spirit
+brotherhood
+Everyone
+life
+the right to life, liberty
+security
+person
+>>> all_sentences = list(doc.sents)
+>>> for word in all_sentences[0]:
+...     print word.text, word.head, word.dep_
+... 
+All beings det
+human beings amod
+beings born nsubjpass
+are born auxpass
+born born ROOT
+free born oprd
+and free cc
+equal free conj
+in free prep
+dignity in pobj
+and dignity cc
+rights dignity conj
+. born punct
+>>> for item in doc:
+...     if word.dep_ in ('nsubj', 'nsubjpass'):
+...             print list(word.subtree)
+... 
+>>> for word in doc:
+...     if word.dep_ == 'prep':
+...             print list(word.subtree)
+... 
+[in, dignity, and, rights]
+[with, reason, and, conscience]
+[towards, one, another]
+[in, a, spirit, of, brotherhood]
+[of, brotherhood]
+[to, life, ,]
+[of, person]
+>>> ^D
+172-16-253-244:C_Apr6 itpstudent$ 

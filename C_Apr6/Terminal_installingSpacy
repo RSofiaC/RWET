@@ -1,0 +1,167 @@
+Last login: Thu Apr  6 12:43:48 on console
+172-16-253-244:~ itpstudent$ sudo pip install spacy
+
+WARNING: Improper use of the sudo command could lead to data loss
+or the deletion of important system files. Please double-check your
+typing when using sudo. Type "man sudo" for more information.
+
+To proceed, enter your password, or type Ctrl-C to abort.
+
+Password:
+Sorry, try again.
+Password:
+Sorry, try again.
+Password:
+The directory '/Users/itpstudent/Library/Caches/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+The directory '/Users/itpstudent/Library/Caches/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If executing pip with sudo, you may want sudo's -H flag.
+Collecting spacy
+  Downloading spacy-1.7.3.tar.gz (3.3MB)
+    100% |████████████████████████████████| 3.3MB 494kB/s 
+Requirement already satisfied (use --upgrade to upgrade): numpy>=1.7 in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from spacy)
+Collecting murmurhash<0.27,>=0.26 (from spacy)
+  Downloading murmurhash-0.26.4-cp27-cp27m-macosx_10_6_intel.whl
+Collecting cymem<1.32,>=1.30 (from spacy)
+  Downloading cymem-1.31.2-cp27-cp27m-macosx_10_6_intel.whl
+Collecting preshed<2.0.0,>=1.0.0 (from spacy)
+  Downloading preshed-1.0.0.tar.gz (89kB)
+    100% |████████████████████████████████| 92kB 1.5MB/s 
+Collecting thinc<6.6.0,>=6.5.0 (from spacy)
+  Downloading thinc-6.5.2.tar.gz (926kB)
+    100% |████████████████████████████████| 931kB 1.2MB/s 
+Collecting plac<1.0.0,>=0.9.6 (from spacy)
+  Downloading plac-0.9.6-py2.py3-none-any.whl
+Requirement already satisfied (use --upgrade to upgrade): six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from spacy)
+Collecting pathlib (from spacy)
+  Downloading pathlib-1.0.1.tar.gz (49kB)
+    100% |████████████████████████████████| 51kB 3.1MB/s 
+Collecting ujson>=1.35 (from spacy)
+  Downloading ujson-1.35.tar.gz (192kB)
+    100% |████████████████████████████████| 194kB 3.1MB/s 
+Collecting dill<0.3,>=0.2 (from spacy)
+  Downloading dill-0.2.6.zip (83kB)
+    100% |████████████████████████████████| 92kB 5.6MB/s 
+Collecting requests<3.0.0,>=2.13.0 (from spacy)
+  Downloading requests-2.13.0-py2.py3-none-any.whl (584kB)
+    100% |████████████████████████████████| 593kB 2.1MB/s 
+Collecting wrapt (from thinc<6.6.0,>=6.5.0->spacy)
+  Downloading wrapt-1.10.10.tar.gz
+Collecting tqdm<5.0.0,>=4.10.0 (from thinc<6.6.0,>=6.5.0->spacy)
+  Downloading tqdm-4.11.2-py2.py3-none-any.whl (46kB)
+    100% |████████████████████████████████| 51kB 4.1MB/s 
+Collecting cytoolz<0.9,>=0.8 (from thinc<6.6.0,>=6.5.0->spacy)
+  Downloading cytoolz-0.8.2.tar.gz (386kB)
+    100% |████████████████████████████████| 389kB 1.4MB/s 
+Collecting termcolor (from thinc<6.6.0,>=6.5.0->spacy)
+  Downloading termcolor-1.1.0.tar.gz
+Collecting toolz>=0.8.0 (from cytoolz<0.9,>=0.8->thinc<6.6.0,>=6.5.0->spacy)
+  Downloading toolz-0.8.2.tar.gz (45kB)
+    100% |████████████████████████████████| 51kB 2.8MB/s 
+Installing collected packages: murmurhash, cymem, preshed, wrapt, tqdm, toolz, cytoolz, plac, dill, termcolor, pathlib, thinc, ujson, requests, spacy
+  Running setup.py install for preshed ... done
+  Running setup.py install for wrapt ... done
+  Running setup.py install for toolz ... done
+  Running setup.py install for cytoolz ... done
+  Running setup.py install for dill ... done
+  Running setup.py install for termcolor ... done
+  Running setup.py install for pathlib ... done
+  Running setup.py install for thinc ... done
+  Running setup.py install for ujson ... done
+  Found existing installation: requests 2.10.0
+    Uninstalling requests-2.10.0:
+      Successfully uninstalled requests-2.10.0
+  Running setup.py install for spacy ... done
+Successfully installed cymem-1.31.2 cytoolz-0.8.2 dill-0.2.6 murmurhash-0.26.4 pathlib-1.0.1 plac-0.9.6 preshed-1.0.0 requests-2.13.0 spacy-1.7.3 termcolor-1.1.0 thinc-6.5.2 toolz-0.8.2 tqdm-4.11.2 ujson-1.35 wrapt-1.10.10
+You are using pip version 8.1.2, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+172-16-253-244:~ itpstudent$ pip install --upgrade pip
+Collecting pip
+  Downloading pip-9.0.1-py2.py3-none-any.whl (1.3MB)
+    100% |████████████████████████████████| 1.3MB 981kB/s 
+Installing collected packages: pip
+  Found existing installation: pip 8.1.2
+    Uninstalling pip-8.1.2:
+Exception:
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/pip-8.1.2-py2.7.egg/pip/basecommand.py", line 215, in main
+    status = self.run(options, args)
+  File "/Library/Python/2.7/site-packages/pip-8.1.2-py2.7.egg/pip/commands/install.py", line 317, in run
+    prefix=options.prefix_path,
+  File "/Library/Python/2.7/site-packages/pip-8.1.2-py2.7.egg/pip/req/req_set.py", line 736, in install
+    requirement.uninstall(auto_confirm=True)
+  File "/Library/Python/2.7/site-packages/pip-8.1.2-py2.7.egg/pip/req/req_install.py", line 742, in uninstall
+    paths_to_remove.remove(auto_confirm)
+  File "/Library/Python/2.7/site-packages/pip-8.1.2-py2.7.egg/pip/req/req_uninstall.py", line 115, in remove
+    renames(path, new_path)
+  File "/Library/Python/2.7/site-packages/pip-8.1.2-py2.7.egg/pip/utils/__init__.py", line 267, in renames
+    shutil.move(old, new)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py", line 300, in move
+    rmtree(src)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py", line 247, in rmtree
+    rmtree(fullname, ignore_errors, onerror)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py", line 252, in rmtree
+    onerror(os.remove, fullname, sys.exc_info())
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py", line 250, in rmtree
+    os.remove(fullname)
+OSError: [Errno 13] Permission denied: '/Library/Python/2.7/site-packages/pip-8.1.2-py2.7.egg/EGG-INFO/dependency_links.txt'
+You are using pip version 8.1.2, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+172-16-253-244:~ itpstudent$ sudo python -m spacy download en
+Password:
+
+    Downloading en_core_web_sm-1.2.0/en_core_web_sm-1.2.0.tar.gz
+
+Collecting https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-1.2.0/en_core_web_sm-1.2.0.tar.gz
+  Downloading https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-1.2.0/en_core_web_sm-1.2.0.tar.gz (52.2MB)
+    100% |████████████████████████████████| 52.2MB 11.8MB/s 
+Requirement already satisfied (use --upgrade to upgrade): spacy<2.0.0,>=1.7.0 in /Library/Python/2.7/site-packages (from en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): numpy>=1.7 in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): murmurhash<0.27,>=0.26 in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): cymem<1.32,>=1.30 in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): preshed<2.0.0,>=1.0.0 in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): thinc<6.6.0,>=6.5.0 in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): plac<1.0.0,>=0.9.6 in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): six in /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): pathlib in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): ujson>=1.35 in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): dill<0.3,>=0.2 in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): requests<3.0.0,>=2.13.0 in /Library/Python/2.7/site-packages (from spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): wrapt in /Library/Python/2.7/site-packages (from thinc<6.6.0,>=6.5.0->spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): tqdm<5.0.0,>=4.10.0 in /Library/Python/2.7/site-packages (from thinc<6.6.0,>=6.5.0->spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): cytoolz<0.9,>=0.8 in /Library/Python/2.7/site-packages (from thinc<6.6.0,>=6.5.0->spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): termcolor in /Library/Python/2.7/site-packages (from thinc<6.6.0,>=6.5.0->spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Requirement already satisfied (use --upgrade to upgrade): toolz>=0.8.0 in /Library/Python/2.7/site-packages (from cytoolz<0.9,>=0.8->thinc<6.6.0,>=6.5.0->spacy<2.0.0,>=1.7.0->en-core-web-sm==1.2.0)
+Installing collected packages: en-core-web-sm
+  Running setup.py install for en-core-web-sm ... done
+Successfully installed en-core-web-sm-1.2.0
+You are using pip version 8.1.2, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+
+    Linking successful
+
+    /Library/Python/2.7/site-packages/en_core_web_sm/en_core_web_sm-1.2.0
+    --> /Library/Python/2.7/site-packages/spacy/data/en
+
+    You can now load the model via spacy.load('en').
+
+172-16-253-244:~ itpstudent$ cd Desktop
+172-16-253-244:Desktop itpstudent$ cd regina
+172-16-253-244:regina itpstudent$ ls
+RWET
+172-16-253-244:regina itpstudent$ cd RWET
+172-16-253-244:RWET itpstudent$ ls
+C_Apr6				C_Mar30				Hw5_DicsAPIs			Hw8_MarkovNgrams		plain-text-example-files
+C_Mar23				Hw3_ListsLoops			Hw6_poetryGenerator		README.md			sea_rose.txt
+C_Mar3				Hw4_ListsDictionaries		Hw7_functionsModules		Terminal_Mar9			sonnets.txt
+172-16-253-244:RWET itpstudent$ cd C_Apr6
+172-16-253-244:C_Apr6 itpstudent$ 
+172-16-253-244:C_Apr6 itpstudent$ 
+172-16-253-244:C_Apr6 itpstudent$ 
+172-16-253-244:C_Apr6 itpstudent$ logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...9 completed.
+
+[Process completed]
+
