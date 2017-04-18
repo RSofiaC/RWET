@@ -1,0 +1,308 @@
+Last login: Tue Apr 18 11:31:44 on console
+Prod008:~ itpstudent$ cd Desktop/regina
+Prod008:regina itpstudent$ git clone https://github.com/RSofiaC/RWET.git
+Cloning into 'RWET'...
+remote: Counting objects: 233, done.
+remote: Compressing objects: 100% (51/51), done.
+remote: Total 233 (delta 17), reused 0 (delta 0), pack-reused 180
+Receiving objects: 100% (233/233), 1.89 MiB | 1.23 MiB/s, done.
+Resolving deltas: 100% (93/93), done.
+Checking connectivity... done.
+Prod008:regina itpstudent$ cd RWET
+Prod008:RWET itpstudent$ ls
+C_Apr13				C_Mar3				Hw4_ListsDictionaries		Hw7_functionsModules		Terminal_Mar9			sonnets.txt
+C_Apr6				C_Mar30				Hw5_DicsAPIs			Hw8_MarkovNgrams		plain-text-example-files
+C_Mar23				Hw3_ListsLoops			Hw6_poetryGenerator		README.md			sea_rose.txt
+Prod008:RWET itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> nlp = spacy.load("en")
+>>> doc = nlp ("This, you say, is not about us, it is a punishment to our President. You are wrong. More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant. Your lawsuit is punishing U.S. children, who live in fear every day thinking today would be the last day I see my father because he was stopped by the police for not having a simple driver’s license and was taken away from me forever.")
+>>> for item in doc.sents:
+...     print item.text
+... 
+This, you say, is not about us, it is a punishment to our President.
+You are wrong.
+More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant.
+Your lawsuit is punishing U.S. children, who live in fear every day thinking today would be the last day I see my father because he was stopped by the police for not having a simple driver’s license and was taken away from me forever.
+>>> sentences_as_list = list(doc.sents)
+>>> len(sentences_as_list)
+4
+>>> import random
+>>> ramdom.choice(sentences_as_list)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'ramdom' is not defined
+>>> random.choice(sentences_as_list)
+You are wrong.
+>>> random.choice(sentences_as_list)
+This, you say, is not about us, it is a punishment to our President.
+>>> sentence = list(doc.sents)[3]
+>>> for word in sentence:
+...     print word.text
+... 
+Your
+lawsuit
+is
+punishing
+U.S.
+children
+,
+who
+live
+in
+fear
+every
+day
+thinking
+today
+would
+be
+the
+last
+day
+I
+see
+my
+father
+because
+he
+was
+stopped
+by
+the
+police
+for
+not
+having
+a
+simple
+driver
+’s
+license
+and
+was
+taken
+away
+from
+me
+forever
+.
+>>> sentence = list(doc.sents)[3]
+>>> for item in sentence:
+...     print item.text, item.pos_, item.tag_
+... 
+Your ADJ PRP$
+lawsuit NOUN NN
+is VERB VBZ
+punishing VERB VBG
+U.S. PROPN NNP
+children NOUN NNS
+, PUNCT ,
+who NOUN WP
+live VERB VBP
+in ADP IN
+fear NOUN NN
+every DET DT
+day NOUN NN
+thinking VERB VBG
+today NOUN NN
+would VERB MD
+be VERB VB
+the DET DT
+last ADJ JJ
+day NOUN NN
+I PRON PRP
+see VERB VBP
+my ADJ PRP$
+father NOUN NN
+because ADP IN
+he PRON PRP
+was VERB VBD
+stopped VERB VBN
+by ADP IN
+the DET DT
+police NOUN NN
+for ADP IN
+not ADV RB
+having VERB VBG
+a DET DT
+simple ADJ JJ
+driver NOUN NN
+’s ADJ JJ
+license NOUN NN
+and CCONJ CC
+was VERB VBD
+taken VERB VBN
+away ADV RB
+from ADP IN
+me PRON PRP
+forever ADV RB
+. PUNCT .
+>>> nouns = []
+>>> adjectives = []
+>>> for item in doc:
+...     if item.pos == 'NOUN'
+  File "<stdin>", line 2
+    if item.pos == 'NOUN'
+                        ^
+SyntaxError: invalid syntax
+>>> nouns = []
+>>> adjectives = []
+>>> for item in doc:
+...     if item.pos == 'NOUN':
+...             noun.append(item.text)
+... for item in doc:
+  File "<stdin>", line 4
+    for item in doc:
+      ^
+SyntaxError: invalid syntax
+>>> nouns = []
+>>> adjectives = []
+>>> for item in doc:
+...     if item.pos == 'NOUN':
+...             noun.append(item.text)
+... 
+>>> for item in doc:
+...     if item.pos == 'ADJ':
+...             adjetives.append(item.text)
+... 
+>>> print random.choice(adjetives) + " " + random.choice(nouns)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'adjetives' is not defined
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py", line 275, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+IndexError: list index out of range
+>>> nouns = []
+>>> adjectives = []
+>>> for item in doc:
+...     if item.pos == 'NOUN':
+...             nouns.append(item.text)
+... 
+>>> for item in doc:
+...     if item.pos == 'ADJ':
+...             adjectives.append(item.text)
+... 
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py", line 275, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+IndexError: list index out of range
+>>> print random.choice(adjectives) + " " + "humans"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py", line 275, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+IndexError: list index out of range
+>>> print "crazy") + " " + random.choice(nouns)
+  File "<stdin>", line 1
+    print "crazy") + " " + random.choice(nouns)
+                 ^
+SyntaxError: invalid syntax
+>>> print "crazy" + " " + random.choice(nouns)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/random.py", line 275, in choice
+    return seq[int(self.random() * len(seq))]  # raises IndexError if seq is empty
+IndexError: list index out of range
+>>> len(nouns)
+0
+>>> len(adjectives)
+0
+>>> print doc
+This, you say, is not about us, it is a punishment to our President. You are wrong. More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant. Your lawsuit is punishing U.S. children, who live in fear every day thinking today would be the last day I see my father because he was stopped by the police for not having a simple driver’s license and was taken away from me forever.
+>>> for item in doc:
+...     if item.pos_ = 'NOUN':
+  File "<stdin>", line 2
+    if item.pos_ = 'NOUN':
+                 ^
+SyntaxError: invalid syntax
+>>> for item in doc:
+...     if item.pos_ == 'NOUN':
+...             nouns.append(item.text)
+... 
+>>> for item in doc:
+...     if item.pos_ == 'ADJ':
+...             adjectives.append(item.text)
+... 
+>>> len(adjectives)
+12
+>>> len(nouns)
+19
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+our police
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+More who
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+More license
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+your wrong
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+More who
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+’s babies
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+your restaurant
+>>> print random.choice(adjectives) + " " + random.choice(nouns)
+’s license
+>>> prep_phrases = []
+>>> for word in doc:
+...     if word.dep_ == 'prep':
+...             prep_phrases.append(flatten_subtree(word_subtree))
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+NameError: name 'flatten_subtree' is not defined
+>>> def flatten_subtree(st):
+...     return ''.join([w.text_with_ws for w in list(st)]).strip()
+... 
+>>> for word in doc:
+...     if word.dep_ == 'prep':
+...             prep_phrases.append(flatten_subtree(word_subtree))
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+NameError: name 'word_subtree' is not defined
+>>> for word in doc:
+...     if word.dep_ == 'prep':
+...             prep_phrases.append(flatten_subtree(word.subtree))
+... 
+>>> prep_phrases
+[u'about us', u'to our President', u'of your babies and', u'at your favorite restaurant', u'in fear', u'for not having a simple driver\u2019s license', u'from me']
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should babies be worried to our President
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should restaurant be worried for not having a simple driver’s license
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should police be worried at your favorite restaurant
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should care be worried about us
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should who be worried at your favorite restaurant
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should license be worried about us
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should babies be worried about us
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should care be worried for not having a simple driver’s license
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should fear be worried to our President
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should babies be worried from me
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should fear be worried about us
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should families be worried of your babies and
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should who be worried in fear
+>>> print "Why should" + " " + random.choice(nouns) + " " + "be worried" + " " + random.choice(prep_phrases)
+Why should babies be worried to our President
+>>> 
