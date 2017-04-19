@@ -1,0 +1,1101 @@
+Last login: Wed Apr 19 12:49:29 on console
+172-16-193-46:~ itpstudent$ cd Desktop/regina/RWET
+172-16-193-46:RWET itpstudent$ ls
+C_Apr13				C_Mar3				Hw3_ListsLoops			Hw6_poetryGenerator		README.md			sea_rose.txt
+C_Apr6				C_Mar30				Hw4_ListsDictionaries		Hw7_functionsModules		Terminal_Mar9			sonnets.txt
+C_Mar23				Final				Hw5_DicsAPIs			Hw8_MarkovNgrams		plain-text-example-files
+172-16-193-46:RWET itpstudent$ cd Final
+172-16-193-46:Final itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> 
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nlp' is not defined
+>>> nlp = spacy.load(en)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'en' is not defined
+>>> nlp = spacy.load('en')
+
+>>> 
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xff in position 170: invalid start byte
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd5 in position 1535: invalid continuation byte
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd5 in position 558: invalid continuation byte
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd5 in position 558: invalid continuation byte
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd5 in position 558: invalid continuation byte
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd5 in position 558: invalid continuation byte
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd5 in position 558: invalid continuation byte
+>>> doc = " I am writing to ask that please you remove our state, Ohio, from this anti-immigrant lawsuit. We are not hurting anybody and we want to be a real part of this community. We want to live with integrity, work hard, pay taxes and give back to this country. We do not want to lose our family members to deportation.
+  File "<stdin>", line 1
+    doc = " I am writing to ask that please you remove our state, Ohio, from this anti-immigrant lawsuit. We are not hurting anybody and we want to be a real part of this community. We want to live with integrity, work hard, pay taxes and give back to this country. We do not want to lose our family members to deportation.
+                                                                                                                                                                                                                                                                                                                                  ^
+SyntaxError: EOL while scanning string literal
+>>> My mother died and I could not go to say my last goodbye, because I had to continue helping my family economically. My story is just like that of many other stories of striving, achieving, people fighting for a better future. That is why today I’m asking you, the people who have the power to change the future for all of these families, to let us work together with you to continue building up this great nation.
+  File "<stdin>", line 1
+    My mother died and I could not go to say my last goodbye, because I had to continue helping my family economically. My story is just like that of many other stories of striving, achieving, people fighting for a better future. That is why today I’m asking you, the people who have the power to change the future for all of these families, to let us work together with you to continue building up this great nation.
+            ^
+SyntaxError: invalid syntax
+>>> 
+>>> As a registered Republican, I am writing to request that you support the rollout of DACA and DAPA. For too long, my party has condemned illegal immigration, yet does not hesitate to use it to their advantage. It’s time to stop politicizing this issue.
+  File "<stdin>", line 1
+    As a registered Republican, I am writing to request that you support the rollout of DACA and DAPA. For too long, my party has condemned illegal immigration, yet does not hesitate to use it to their advantage. It’s time to stop politicizing this issue.
+       ^
+SyntaxError: invalid syntax
+>>> 
+>>> As an Ohioan and the wife of an immigrant spouse and parent to two daughters I ask that you do everything in your power to support all families in Ohio. The family is the fundamental unit that creates every other part of society. It is in this unit where all is learned and with families suffering from deportation and fear you create a society that is suffering from the same.
+  File "<stdin>", line 1
+    As an Ohioan and the wife of an immigrant spouse and parent to two daughters I ask that you do everything in your power to support all families in Ohio. The family is the fundamental unit that creates every other part of society. It is in this unit where all is learned and with families suffering from deportation and fear you create a society that is suffering from the same.
+        ^
+SyntaxError: invalid syntax
+>>> 
+>>> Scripture calls us to welcome the stranger, not lock them up or deport them.
+  File "<stdin>", line 1
+    Scripture calls us to welcome the stranger, not lock them up or deport them.
+                  ^
+SyntaxError: invalid syntax
+>>> 
+>>> Remember, the president only acted because your friends were not doing their jobs. It’s time to stop this nonsense and start leading for a change!
+  File "<stdin>", line 1
+    Remember, the president only acted because your friends were not doing their jobs. It’s time to stop this nonsense and start leading for a change!
+                          ^
+SyntaxError: invalid syntax
+>>> 
+>>> Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!
+  File "<stdin>", line 1
+    Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!
+          ^
+SyntaxError: invalid syntax
+>>> 
+>>> My biggest dream is to help my daughters study and gain a profession, so that they can have an easier life than that of millions of immigrants, and a better future. But in order to achieve this, we parents need to step out of the shadows and be a little more secure, obtaining papers to work legally and at the same time begin to save for our children’s college; buy our own homes; or save for old age.
+  File "<stdin>", line 1
+    My biggest dream is to help my daughters study and gain a profession, so that they can have an easier life than that of millions of immigrants, and a better future. But in order to achieve this, we parents need to step out of the shadows and be a little more secure, obtaining papers to work legally and at the same time begin to save for our children’s college; buy our own homes; or save for old age.
+             ^
+SyntaxError: invalid syntax
+>>> 
+>>> Once DACA came into action, I was first in line to apply, and every little step of my documentation was a huge celebration for me and my family. Once I received my work permit and SSN, my life immediately changed. I was finally able to get a Driver’s License and apply for professional jobs to kick start my career.
+  File "<stdin>", line 1
+    Once DACA came into action, I was first in line to apply, and every little step of my documentation was a huge celebration for me and my family. Once I received my work permit and SSN, my life immediately changed. I was finally able to get a Driver’s License and apply for professional jobs to kick start my career.
+            ^
+SyntaxError: invalid syntax
+>>> 
+>>> This, you say, is not about us, it is a punishment to our President. You are wrong. More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant. Your lawsuit is punishing U.S. children, who live in fear every day thinking today would be the last day I see my father because he was stopped by the police for not having a simple driver’s license and was taken away from me forever.
+  File "<stdin>", line 1
+    This, you say, is not about us, it is a punishment to our President. You are wrong. More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant. Your lawsuit is punishing U.S. children, who live in fear every day thinking today would be the last day I see my father because he was stopped by the police for not having a simple driver’s license and was taken away from me forever.
+                ^
+SyntaxError: invalid syntax
+>>> 
+>>> I am writing this note to tell you not to deport my mom. She is not a bad person. She doesn’t make any harm. She works. That is why I am asking you not to deport my mom.
+  File "<stdin>", line 1
+    I am writing this note to tell you not to deport my mom. She is not a bad person. She doesn’t make any harm. She works. That is why I am asking you not to deport my mom.
+       ^
+SyntaxError: invalid syntax
+>>> 
+>>> My children are from this country; they are citizens and have the right to grow up in a safe and secure environment. If the deport me, I’ll have to take them to a place that is full of danger and lacks hope and opportunities.
+  File "<stdin>", line 1
+    My children are from this country; they are citizens and have the right to grow up in a safe and secure environment. If the deport me, I’ll have to take them to a place that is full of danger and lacks hope and opportunities.
+              ^
+SyntaxError: invalid syntax
+>>> 
+>>> My mom is my superhero.I want to reach all my goals and finish studying. We don’t have anything in Michoacan. There is a lot of violence. Most people being sent aren’t killers or robbers. They are not criminals. Sometimes I wish this was a bad dream, but it isn’t.
+  File "<stdin>", line 1
+    My mom is my superhero.I want to reach all my goals and finish studying. We don’t have anything in Michoacan. There is a lot of violence. Most people being sent aren’t killers or robbers. They are not criminals. Sometimes I wish this was a bad dream, but it isn’t.
+         ^
+SyntaxError: invalid syntax
+>>> 
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))                                                                                                                                              Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/encodings/utf_8.py", line 16, in decode
+    return codecs.utf_8_decode(input, errors, True)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xd5 in position 557: invalid continuation byte
+>>> doc3 = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+>>> for item in doc.sents :
+...     print item.text
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'doc' is not defined
+>>> for item in doc3.sents :
+...     print item.text
+... 
+﻿I am writing to ask that please you remove our state, Ohio, from this anti-immigrant lawsuit.
+We are not hurting anybody and we want to be a real part of this community.
+We want to live with integrity, work hard, pay taxes and give back to this country.
+We do not want to lose our family members to deportation.
+My mother died and I could not go to say my last goodbye, because I had to continue helping my family economically.
+My story is just like that of many other stories of striving, achieving, people fighting for a better future.
+That is why today I’m asking you, the people who have the power to change the future for all of these families, to let us work together with you to continue building up this great nation.
+As a registered Republican, I am writing to request that you support the rollout of DACA and DAPA.
+For too long, my party has condemned illegal immigration, yet does not hesitate to use it to their advantage.
+It’s time to stop politicizing this issue.
+As an Ohioan and the wife of an immigrant spouse and parent to two daughters I ask that you do everything in your power to support all families in Ohio.
+The family is the fundamental unit that creates every other part of society.
+It is in this unit where all is learned and with families suffering from deportation and fear you create a society that is suffering from the same.
+Scripture calls us to welcome the stranger, not lock them up or deport them.
+Remember, the president only acted because your friends were not doing their jobs.
+It’s time to stop this nonsense and start leading for a change!
+Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!
+My biggest dream is to help my daughters study and gain a profession, so that they can have an easier life than that of millions of immigrants, and a better future.
+But in order to achieve this, we parents need to step out of the shadows and be a little more secure, obtaining papers to work legally and at the same time begin to save for our children’s college; buy our own homes; or save for old age.
+Once DACA came into action, I was first in line to apply, and every little step of my documentation was a huge celebration for me and my family.
+Once I received my work permit and SSN, my life immediately changed.
+I was finally able to get a Driver’s License and apply for professional jobs to kick start my career.
+This, you say, is not about us, it is a punishment to our President.
+You are wrong.
+More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant.
+Your lawsuit is punishing U.S. children, who live in fear every day thinking today would be the last day I see my father because he was stopped by the police for not having a simple driver’s license and was taken away from me forever.
+I am writing this note to tell you not to deport my mom.
+She is not a bad person.
+She doesn’t make any harm.
+She works.
+That is why I am asking you not to deport my mom.
+My children are from this country; they are citizens and have the right to grow up in a safe and secure environment.
+If the deport me, I’ll have to take them to a place that is full of danger and lacks hope and opportunities.
+My mom is my superhero.
+I want to reach all my goals and finish studying.
+We don’t have anything in Michoacan.
+There is a lot of violence.
+Most people being sent aren’t killers or robbers.
+They are not criminals.
+Sometimes I wish this was a bad dream, but it isn’t.
+>>> import random
+>>> requests = list(doc3.sents)
+>>> len(requests)
+40
+>>> random.choice(requests)
+There is a lot of violence.
+>>> random.choice(requests)
+Scripture calls us to welcome the stranger, not lock them up or deport them.
+>>> random.choice(requests)
+This, you say, is not about us, it is a punishment to our President.
+>>> random.choice(requests)
+That is why today I’m asking you, the people who have the power to change the future for all of these families, to let us work together with you to continue building up this great nation.
+>>> random.choice(requests)
+Sometimes I wish this was a bad dream, but it isn’t.
+>>> doc4 = nlp(open("why.txt").read().decode('utf8'))
+>>> questions = list(do4.sents)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'do4' is not defined
+>>> questions = list(doc4.sents)
+>>> len (questions)
+9
+>>> random.choice(questions)
+Why should we be deported?
+>>> random.choice(questions)
+What will our fellow citizens think if honest subjects are faced with such a decree? not to mention the great material losses it would incur.
+>>> random.choice(questions)
+Both my Latino and white students are U.S. citizens.
+>>> random.choice(questions)
+Both my Latino and white students are U.S. citizens.
+>>> random.choice(questions)
+﻿If so, dear Honorable Immigration Judge, my question to you is, how can I go on teaching about equal rights and freedom of speech and all the things our constitution is supposed to defend, and that the very name of our school is supposed to represent, when the father of my students is deported simply because his skin is darker?
+>>> random.choice(questions)
+I would like to become a Bavarian citizen again.
+>>> random.choice(questions)
+I would like to become a Bavarian citizen again.
+>>> doc5 = nlp(open('unwanted.txt').red().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'file' object has no attribute 'red'
+>>> doc5 = nlp(open('unwanted.txt').read().decode('utf8'))
+>>> onffense = list(doc5.sents)
+>>> len (offense)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'offense' is not defined
+>>> len (onffense)
+12
+>>> random.choice(onffense)
+I’m past the age limit.through.
+>>> random.choice(onffense)
+I’m missing a stamp.eet the requirements
+>>> random.choice(onffense)
+I don’t have a bank account.
+>>> random.choice(onffense)
+I have no contacts at all.
+>>> random.choice(onffense)
+I don’t have a bank account.
+>>> random.choice(onffense)
+I don’t have a bank account.
+>>> random.choice(onffense)
+And our masters deem it is time for me to shut up and scram
+>>> random.choice(onffense)
+I’m missing a stamp.eet the requirements
+>>> random.choice(onffense)
+I don’t have a bank account.
+>>> random.choice(onffense)
+I don’t speak the language.
+>>> random.choice(onffense)
+I have no contacts at all.
+>>> random.choice(onffense)
+I have no contacts at all.
+>>> random.choice(onffense)
+I failed the admission test.
+>>> random.choice(onffense)
+I need another signature.
+>>> pint "Why should we be deported?" + " " + "Because " + random.choice(onffense) + " " + random.choice(onffense) + " " + random.choice(requests) + " " + random.choice(questions)
+  File "<stdin>", line 1
+    pint "Why should we be deported?" + " " + "Because " + random.choice(onffense) + " " + random.choice(onffense) + " " + random.choice(requests) + " " + random.choice(questions) 
+                                    ^
+SyntaxError: invalid syntax
+>>> print "Why should we be deported?" + " " + "Because " + random.choice(onffense) + " " + random.choice(onffense) + " " + random.choice(requests) + " " + random.choice(questions)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: coercing to Unicode: need string or buffer, spacy.tokens.span.Span found
+>>> print "why should we be deported?" + " " + random.choice(onffense)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: coercing to Unicode: need string or buffer, spacy.tokens.span.Span found
+>>> print "why should we be deported?" 
+why should we be deported?
+>>> print "why should we be deported?" + random.choice(onffense)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: coercing to Unicode: need string or buffer, spacy.tokens.span.Span found
+>>> print "why should we be deported?" + random.choice(requests)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: coercing to Unicode: need string or buffer, spacy.tokens.span.Span found
+>>> print random.choice(requests)
+You are wrong.
+>>> print random.choice(requests) + "why should we be deported"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'spacy.tokens.span.Span' and 'unicode'
+>>> print "random.choice(requests)" + "why should we be deported"
+random.choice(requests)why should we be deported
+>>> print random.choice(onfense) + " " + random.choice(requests)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'onfense' is not defined
+>>> print random.choice(onffense) + " " + random.choice(requests)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'spacy.tokens.span.Span' and 'unicode'
+>>> print random.choice(onffense) +  random.choice(requests)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'spacy.tokens.span.Span' and 'spacy.tokens.span.Span'
+>>> print random.choice(onffense),  random.choice(requests)
+ But in order to achieve this, we parents need to step out of the shadows and be a little more secure, obtaining papers to work legally and at the same time begin to save for our children’s college; buy our own homes; or save for old age.
+>>> print "why should we be deported" + " " + "Because ", random.choice(onfeense) + "?"
+why should we be deported Because 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'onfeense' is not defined
+>>> print "why should we be deported" + " " + "Because ", random.choice(onffense) + "?"
+why should we be deported Because 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'spacy.tokens.span.Span' and 'unicode'
+>>> print "why should we be deported" + " " + "Because ", random.choice(onffense), "?"
+ ?y should we be deported Because  I need another signature.
+>>> print "why should we be deported",  " ",  "Because ", random.choice(onffense), "?"
+ ?m past the age limit.ed   Because  ﻿The guard wont let me through.
+>>> print "why should we be deported" +  "Because ", random.choice(onffense), "?"
+ ?y should we be deportedBecause  I failed the admission test.
+>>> print "why should we be deported" +  "Because, random.choice(onffense), ?"
+why should we be deportedBecause, random.choice(onffense), ?
+>>> print "why should we be deported" +  "Because" random.choice(onffense)," ?"
+  File "<stdin>", line 1
+    print "why should we be deported" +  "Because" random.choice(onffense)," ?"
+                                                        ^
+SyntaxError: invalid syntax
+>>> print "why should we be deported" +  "Because", random.choice(onffense)," ?"
+  ? should we be deportedBecause And our masters deem it is time for me to shut up and scram
+>>> print "why should we be deported" +  "Because", random.choice(onffense)
+why should we be deportedBecause I failed the admission test.
+>>> print "why should we be deported" + " " +  "Because", random.choice(onffense)
+why should we be deported Because And our masters deem it is time for me to shut up and scram
+>>> print "why should we be deported" + " " +  "Because", random.choice(onffense)
+why should we be deported Because My position in the great factory has been cancelled.
+>>> print "why should we be deported" + " " +  "Because", random.choice(onffense)
+why should we be deported Because And our masters deem it is time for me to shut up and scram
+>>> print "why should we be deported" + " " +  "Because", random.choice(onffense)
+why should we be deported Because I got unemployed today and forever.
+>>> print "why should we be deported" + " " +  "Because", random.choice(onffense)
+why should we be deported Because I have no contacts at all.
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense)
+why should we be deported? Because I come from a country that no longer exists.
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense) + "?"
+why should we be deported? Because
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'spacy.tokens.span.Span' and 'unicode'
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense) , "?"
+ ?y should we be deported? Because And our masters deem it is time for me to shut up and scram
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense) 
+why should we be deported? Because I got unemployed today and forever.
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense)
+why should we be deported? Because I got unemployed today and forever.
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense)
+why should we be deported? Because And our masters deem it is time for me to shut up and scram
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense)
+why should we be deported? Because I need another signature.
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense)
+why should we be deported? Because I come from a country that no longer exists.
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense), random.choice(requests), random.choice(requests), random.choice(questions)
+ My mom is my superhero. Once DACA came into action, I was first in line to apply, and every little step of my documentation was a huge celebration for me and my family. Do you think such an incident is going to convince my students and their families that the United States is the compassionate model of democracy for the rest of the world?
+>>> print "why should we be deported?" + " " +  "Because", random.choice(onffense), random.choice(requests), random.choice(requests), random.choice(questions)
+ She works. But in order to achieve this, we parents need to step out of the shadows and be a little more secure, obtaining papers to work legally and at the same time begin to save for our children’s college; buy our own homes; or save for old age. This is very, very hard for a family.
+>>> >>> def human_join(parts, conjunction):
+  File "<stdin>", line 1
+    >>> def human_join(parts, conjunction):
+     ^
+SyntaxError: invalid syntax
+>>> ...   if len(parts) == 1:
+  File "<stdin>", line 1
+    ...   if len(parts) == 1:
+    ^
+SyntaxError: invalid syntax
+>>> ...     return parts[0]
+  File "<stdin>", line 1
+    ...     return parts[0]
+    ^
+SyntaxError: invalid syntax
+>>> ...   first_join = ', '.join(parts[:-1])
+  File "<stdin>", line 1
+    ...   first_join = ', '.join(parts[:-1])
+    ^
+SyntaxError: invalid syntax
+>>> ...   return first_join + " " + conjunction + " " + parts[-1]
+  File "<stdin>", line 1
+    ...   return first_join + " " + conjunction + " " + parts[-1]
+    ^
+SyntaxError: invalid syntax
+>>> ... 
+  File "<stdin>", line 1
+    ... 
+    ^
+SyntaxError: invalid syntax
+>>> >>> some_things = ["an abacus", "a belfry", "a cuisinart"]
+  File "<stdin>", line 1
+    >>> some_things = ["an abacus", "a belfry", "a cuisinart"]
+     ^
+SyntaxError: invalid syntax
+>>> >>> human_join(some_things, "and")
+  File "<stdin>", line 1
+    >>> human_join(some_things, "and")
+     ^
+SyntaxError: invalid syntax
+>>> >>> human_join(["just this one thing!"], "and")
+  File "<stdin>", line 1
+    >>> human_join(["just this one thing!"], "and")
+     ^
+SyntaxError: invalid syntax
+>>> 'an abacus, a belfry and a cuisinart'
+u'an abacus, a belfry and a cuisinart'
+>>> 'just this one thing!'
+u'just this one thing!'
+>>> def undestand(question, conjunction, random):
+...     for item in doc4.sents:
+...             return random.choicee
+... 
+>>> 
+KeyboardInterrupt
+>>> ^D
+172-16-193-46:Final itpstudent$ cd ..
+172-16-193-46:RWET itpstudent$ git add -A
+172-16-193-46:RWET itpstudent$ git commit -m "trying to code the final functions and programs for performance"
+[master 66f5666] trying to code the final functions and programs for performance
+ Committer: itp student <itpstudent@172-16-193-46.DYNAPOOL.NYU.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 6 insertions(+), 29 deletions(-)
+ rewrite Final/peoplevsOhio.txt (100%)
+ create mode 100644 Final/unwanted.txt
+ rewrite Final/why.txt (100%)
+ create mode 100644 Final/whyShouldWe.py
+172-16-193-46:RWET itpstudent$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.33 KiB | 0 bytes/s, done.
+Total 7 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/RSofiaC/RWET.git
+   b50efa3..66f5666  master -> master
+172-16-193-46:RWET itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future_ import unicode_literals
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ImportError: No module named __future_
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> nlp = spacy.load('en')
+>>> import random
+>>> docR = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IOError: [Errno 2] No such file or directory: u'peoplevsOhio.txt'
+>>> 
+KeyboardInterrupt
+>>> ^D
+172-16-193-46:RWET itpstudent$ cd Final
+172-16-193-46:Final itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> nlp = spacy.load('en')
+>>> import random
+>>> docR = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+>>> docO = nlp(open("unwanted.txt").read().decode('utf8'))
+>>> docQ = nlp(open("why.txt").read().decode('utf8'))
+>>> questions = list(docQ.sents)
+>>> offenses = list(docO.sents)
+>>> requests = list(docR.sents)
+>>> def understand (start, offense, question, request):
+...     lineOne = 'Because '.join(random.choice(offense))
+...     lineTwo = ', '.join(random.choice(question))
+...     lineThree = random.choice(request)
+... return  start + " " + lineOne + " " + lineTwo + " " + lineThree
+  File "<stdin>", line 5
+    return  start + " " + lineOne + " " + lineTwo + " " + lineThree
+         ^
+SyntaxError: invalid syntax
+>>> def understand (start, offense, question, request):
+...     lineOne = 'Because '.join(random.choice(offense))
+...     lineTwo = ', '.join(random.choice(question))
+...     lineThree = random.choice(request)
+...     return  start + " " + lineOne + " " + lineTwo + " " + lineThree
+... 
+>>> undestand ("why should we be deported",offenses,questions,requests)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'undestand' is not defined
+>>> understand ("why should we be deported",offenses,questions,requests)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in understand
+TypeError: sequence item 0: expected string or Unicode, spacy.tokens.token.Token found
+>>> 
+KeyboardInterrupt
+>>> ^D
+172-16-193-46:Final itpstudent$ git add -A
+172-16-193-46:Final itpstudent$ git commit -m "Need to turn list items into strings so I can use in function"
+[master 9c62e8a] Need to turn list items into strings so I can use in function
+ Committer: itp student <itpstudent@172-16-193-46.DYNAPOOL.NYU.EDU>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 562 insertions(+), 1 deletion(-)
+ create mode 100644 Final/Terminal_rehersingFunction1
+172-16-193-46:Final itpstudent$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 6.41 KiB | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/RSofiaC/RWET.git
+   66f5666..9c62e8a  master -> master
+172-16-193-46:Final itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> npl = spacy.load('en')
+>>> import random
+>>> docR = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'nlp' is not defined
+>>> nlp = spacy.load('en')
+>>> docR = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+>>> docO = nlp(open("unwanted.txt").read().decode('utf8'))
+>>> docQ = nlp(open("why.txt").read().decode('utf8'))
+>>> questions = list(docQ.sents)
+>>> offenses = list(docO.sents)
+>>> requests = list(docR.sents)
+>>> def understand (start, offense, question, request):
+...     lineOne = 'Because '.join(str(random.choice(offense)))
+...     lineTwo = ', '.join(str(random.choice(question)))
+...     lineThree = str(random.choice(request))
+...     return  start + " " + lineOne + " " + lineTwo + " " + lineThree
+... 
+>>> understand("why should we be deported?", offenses, questions, requests)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "<stdin>", line 2, in understand
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe2 in position 0: ordinal not in range(128)
+>>> for item in docR.sents:
+...     print inte.text
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'inte' is not defined
+>>> for item in docR.sents:
+...     print intem.text
+... 
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+NameError: name 'intem' is not defined
+>>> for item in docR.sents:
+...     print item.text
+... 
+﻿I am writing to ask that please you remove our state, Ohio, from this anti-immigrant lawsuit.
+We are not hurting anybody and we want to be a real part of this community.
+We want to live with integrity, work hard, pay taxes and give back to this country.
+We do not want to lose our family members to deportation.
+My mother died and I could not go to say my last goodbye, because I had to continue helping my family economically.
+My story is just like that of many other stories of striving, achieving, people fighting for a better future.
+That is why today I’m asking you, the people who have the power to change the future for all of these families, to let us work together with you to continue building up this great nation.
+As a registered Republican, I am writing to request that you support the rollout of DACA and DAPA.
+For too long, my party has condemned illegal immigration, yet does not hesitate to use it to their advantage.
+It’s time to stop politicizing this issue.
+As an Ohioan and the wife of an immigrant spouse and parent to two daughters I ask that you do everything in your power to support all families in Ohio.
+The family is the fundamental unit that creates every other part of society.
+It is in this unit where all is learned and with families suffering from deportation and fear you create a society that is suffering from the same.
+Scripture calls us to welcome the stranger, not lock them up or deport them.
+Remember, the president only acted because your friends were not doing their jobs.
+It’s time to stop this nonsense and start leading for a change!
+Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!
+My biggest dream is to help my daughters study and gain a profession, so that they can have an easier life than that of millions of immigrants, and a better future.
+But in order to achieve this, we parents need to step out of the shadows and be a little more secure, obtaining papers to work legally and at the same time begin to save for our children’s college; buy our own homes; or save for old age.
+Once DACA came into action, I was first in line to apply, and every little step of my documentation was a huge celebration for me and my family.
+Once I received my work permit and SSN, my life immediately changed.
+I was finally able to get a Driver’s License and apply for professional jobs to kick start my career.
+This, you say, is not about us, it is a punishment to our President.
+You are wrong.
+More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant.
+Your lawsuit is punishing U.S. children, who live in fear every day thinking today would be the last day I see my father because he was stopped by the police for not having a simple driver’s license and was taken away from me forever.
+I am writing this note to tell you not to deport my mom.
+She is not a bad person.
+She doesn’t make any harm.
+She works.
+That is why I am asking you not to deport my mom.
+My children are from this country; they are citizens and have the right to grow up in a safe and secure environment.
+If the deport me, I’ll have to take them to a place that is full of danger and lacks hope and opportunities.
+My mom is my superhero.
+I want to reach all my goals and finish studying.
+We don’t have anything in Michoacan.
+There is a lot of violence.
+Most people being sent aren’t killers or robbers.
+They are not criminals.
+Sometimes I wish this was a bad dream, but it isn’t.
+>>> requests = list(docR.sents)
+>>> len(requests)
+40
+>>> for item in requests:
+...     print str(random.choice(requests))
+... 
+Once I received my work permit and SSN, my life immediately changed.
+The family is the fundamental unit that creates every other part of society.
+Scripture calls us to welcome the stranger, not lock them up or deport them.
+The family is the fundamental unit that creates every other part of society.
+She doesn’t make any harm.
+We want to live with integrity, work hard, pay taxes and give back to this country.
+I was finally able to get a Driver’s License and apply for professional jobs to kick start my career.
+Your lawsuit is punishing U.S. children, who live in fear every day thinking today would be the last day I see my father because he was stopped by the police for not having a simple driver’s license and was taken away from me forever.
+Once DACA came into action, I was first in line to apply, and every little step of my documentation was a huge celebration for me and my family.
+It’s time to stop politicizing this issue.
+But in order to achieve this, we parents need to step out of the shadows and be a little more secure, obtaining papers to work legally and at the same time begin to save for our children’s college; buy our own homes; or save for old age.
+There is a lot of violence.
+Most people being sent aren’t killers or robbers.
+Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!
+She works.
+Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!
+That is why I am asking you not to deport my mom.
+That is why I am asking you not to deport my mom.
+More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant.
+My mom is my superhero.
+There is a lot of violence.
+Scripture calls us to welcome the stranger, not lock them up or deport them.
+It’s time to stop politicizing this issue.
+She works.
+That is why today I’m asking you, the people who have the power to change the future for all of these families, to let us work together with you to continue building up this great nation.
+Sometimes I wish this was a bad dream, but it isn’t.
+That is why I am asking you not to deport my mom.
+You are wrong.
+You are wrong.
+Scripture calls us to welcome the stranger, not lock them up or deport them.
+She doesn’t make any harm.
+More than 5 million families are being punished while they are still here, mowing your lawn, taking care of your babies and washing your dishes at your favorite restaurant.
+She doesn’t make any harm.
+We do not want to lose our family members to deportation.
+That is why I am asking you not to deport my mom.
+There is a lot of violence.
+I want to reach all my goals and finish studying.
+That is why I am asking you not to deport my mom.
+You are wrong.
+Once I received my work permit and SSN, my life immediately changed.
+>>> random.choice(requests)
+My children are from this country; they are citizens and have the right to grow up in a safe and secure environment.
+>>> random.choice(requests)
+I am writing this note to tell you not to deport my mom.
+>>> Requests = random.choice(requests)
+>>> Questions = random.choice(questions)
+>>> Offenses = random.choice(offenses)
+>>> Begin = "Why should we be deported?"
+>>> 
+>>> Begin
+u'Why should we be deported?'
+>>> print "Because", Requests
+Because The family is the fundamental unit that creates every other part of society.
+>>> print "Because", Requests
+Because The family is the fundamental unit that creates every other part of society.
+>>> print "Because", Requests
+Because The family is the fundamental unit that creates every other part of society.
+>>> 
+KeyboardInterrupt
+>>> ^D
+172-16-193-46:Final itpstudent$ 
+172-16-193-46:Final itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> nlp = spacy.load('en')
+>>> import random
+>>> docR = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+>>> def Requests (explain, reason)
+  File "<stdin>", line 1
+    def Requests (explain, reason)
+                                 ^
+SyntaxError: invalid syntax
+>>> def Requests (explain, reason):
+...     return explain, random.choice(reason)
+... 
+>>> listen = list(docR.sents)
+>>> Requests ("Because", listen)
+(u'Because', Scripture calls us to welcome the stranger, not lock them up or deport them.)
+>>> Requests ("Because", listen)
+(u'Because', As an Ohioan and the wife of an immigrant spouse and parent to two daughters I ask that you do everything in your power to support all families in Ohio.)
+>>> Requests ("Because", listen)
+(u'Because', We want to live with integrity, work hard, pay taxes and give back to this country.)
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> Begin = "Why should we be deported?"
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> Begin
+u'Why should we be deported?'
+>>> Request(Because,listen)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Request' is not defined
+>>> Requests("Because",listen)
+(u'Because', Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!)
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+KeyboardInterrupt
+>>> ^D
+172-16-193-46:Final itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> Begin = print unicode('Why should we be deported?')
+  File "<stdin>", line 1
+    Begin = print unicode('Why should we be deported?')
+                ^
+SyntaxError: invalid syntax
+>>> Begin = unicode('Why should we be deported?')
+>>> Begin
+u'Why should we be deported?'
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> nlp = spacy.load('en')
+>>> import random
+>>> Begin = "Why should we be deported?"
+>>> docR = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+>>> docO = nlp(open("unwanted.txt").read().decode('utf8'))
+>>> docQ = nlp(open("why.txt").read().decode('utf8'))
+>>> def Requests(s):
+...     return random.choice(docR.sents)
+... 
+>>> def Explain(why,offense):
+...     return why, random.choice(docO.sents)
+... 
+>>> def Question(s):
+...     return random.choice(docQ.sents)
+... 
+>>> Begin
+u'Why should we be deported?'
+>>> Request
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Request' is not defined
+>>> Requests
+<function Requests at 0x1094ec668>
+>>> Question
+<function Question at 0x1094ec8c0>
+>>> Begin
+u'Why should we be deported?'
+>>> Explain
+<function Explain at 0x1094ec848>
+>>> 
+KeyboardInterrupt
+>>> ^D
+172-16-193-46:Final itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future__ import unicode_literals
+>>> import spacy
+>>> nlp = spacy.load('en')
+>>> import random
+>>> Begin = "Why should we be deported?"
+>>> docR = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+>>> docO = nlp(open("unwanted.txt").read().decode('utf8'))
+>>> docQ = nlp(open("why.txt").read().decode('utf8'))
+>>> request = list(docR)
+>>> 
+KeyboardInterrupt
+>>> ^D
+172-16-193-46:Final itpstudent$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from __future__ import unicode_literals
+>>> importa spacy
+  File "<stdin>", line 1
+    importa spacy
+                ^
+SyntaxError: invalid syntax
+>>> import spacy
+>>> nlp = spacy.load('en')
+>>> import random
+>>> Begin = "Why should we be deported?"
+>>> docQ = nlp(open("why.txt").read().decode('utf8'))
+>>> docO = nlp(open("unwanted.txt").read().decode('utf8'))
+>>> docR = nlp(open("peoplevsOhio.txt").read().decode('utf8'))
+>>> request = list(docR.sents)
+>>> offense = list(docO.sents)
+>>> question = list(docQ.sents)
+>>> def Requests():
+...     return random.choice(request)
+... 
+>>> def Offenses():
+...     return random.choice(offense)
+... 
+>>> def Explain(why,reason):
+...     return "Because", random.choice(offense)
+... 
+>>> def Questions():
+...     return random.choice(question)
+... 
+>>> Begin
+u'Why should we be deported?'
+>>> Requests
+<function Requests at 0x10fc0b668>
+>>> Explain
+<function Explain at 0x10fc0b8c0>
+>>> random.choice(request)
+We don’t have anything in Michoacan.
+>>> random.choice(request)
+As an Ohioan and the wife of an immigrant spouse and parent to two daughters I ask that you do everything in your power to support all families in Ohio.
+>>> random.choice(request)
+Once I received my work permit and SSN, my life immediately changed.
+>>> Requests(request)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: Requests() takes no arguments (1 given)
+>>> Requests()
+Once DACA came into action, I was first in line to apply, and every little step of my documentation was a huge celebration for me and my family.
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> Begin
+u'Why should we be deported?'
+>>> Requests()
+My children are from this country; they are citizens and have the right to grow up in a safe and secure environment.
+>>> Requests()
+My story is just like that of many other stories of striving, achieving, people fighting for a better future.
+>>> Requests()
+She doesn’t make any harm.
+>>> 
+>>> def Explanation():
+...     return "Because", random.choice(offense)
+... 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> Begin
+u'Why should we be deported?'
+>>> Request()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Request' is not defined
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> Begin
+u'Why should we be deported?'
+>>> Requests()
+I was finally able to get a Driver’s License and apply for professional jobs to kick start my career.
+>>> Requests()
+Sometimes I wish this was a bad dream, but it isn’t.
+>>> Requests()
+For too long, my party has condemned illegal immigration, yet does not hesitate to use it to their advantage.
+>>> Explanation()
+)u'Because', My documents don’t meet the requirements.
+>>> Explanation()
+)u'Because', I’m missing a stamp.
+>>> Explanation()
+)u'Because', And our masters deem it is time for me to shut up and scram
+>>> def explainTwo (why,reason):
+...     return why,random.choice(offense)
+... 
+>>> explainTwo("because",offense)
+)u'because', I have no contacts at all.
+>>> Questions()
+﻿If so, dear Honorable Immigration Judge, my question to you is, how can I go on teaching about equal rights and freedom of speech and all the things our constitution is supposed to defend, and that the very name of our school is supposed to represent, when the father of my students is deported simply because his skin is darker?
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> 
+>>> Begin
+u'Why should we be deported?'
+>>> Requests()
+Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!
+>>> Requests()
+We want to live with integrity, work hard, pay taxes and give back to this country.
+>>> Requests()
+Give us the opportunity to be great, allow us to build our homes here, allow our kids make extraordinary discoveries and believe in us!
+>>> Begin
+u'Why should we be deported?'
+>>> Exolanation()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Exolanation' is not defined
+>>> Explanation
+<function Explanation at 0x10cf46c80>
+>>> Explanation()
+)u'Because', I have no contacts at all.
+>>> Explanation()
+)u'Because', I got unemployed today and forever.
+>>> Explanation()
+)u'Because', I got unemployed today and forever.
+>>> Questions()
+What will our fellow citizens think if honest subjects are faced with such a decree? not to mention the great material losses it would incur.
+>>> 
+KeyboardInterrupt
+>>> ^D
+172-16-193-46:Final itpstudent$ 

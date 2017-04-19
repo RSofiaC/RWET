@@ -12,7 +12,11 @@ offenses = list(docO.sents)
 requests = list(docR.sents)
 
 def understand (start, offense, question, request):
-        lineOne = 'Because '.join(random.choice(offense))
-        lineTwo = ', '.join(random.choice(question))
-        lineThree = random.choice(request)
-    return  start + " " + lineOne + " " + lineTwo + " " + lineThree
+        lineOne = 'Because '.join(str(random.choice(offense)))
+        lineTwo = ', '.join(str(random.choice(question)))
+        lineThree = str(random.choice(request))
+        return  start + " " + lineOne + " " + lineTwo + " " + lineThree
+
+#having trouble here trying to turn the lines from unicode into str so it can
+#get printed
+    [line.decode('utf-8').strip() for line in title_file.readlines()]
